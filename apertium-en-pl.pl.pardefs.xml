@@ -3501,73 +3501,73 @@
       <e>
         <p>
           <l>kto</l>
-          <r>ktoprn<s n="prn"/><s n="aff"/><s n="nom"/></r>
+          <r>kto<s n="prn"/><s n="aff"/><s n="nom"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>kogo</l>
-          <r>ktoprn<s n="prn"/><s n="aff"/><s n="gen"/></r>
+          <r>kto<s n="prn"/><s n="aff"/><s n="gen"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>komu</l>
-          <r>ktoprn<s n="prn"/><s n="aff"/><s n="dat"/></r>
+          <r>kto<s n="prn"/><s n="aff"/><s n="dat"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>kogo</l>
-          <r>ktoprn<s n="prn"/><s n="aff"/><s n="acc"/></r>
+          <r>kto<s n="prn"/><s n="aff"/><s n="acc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>kim</l>
-          <r>ktoprn<s n="prn"/><s n="aff"/><s n="ins"/></r>
+          <r>kto<s n="prn"/><s n="aff"/><s n="ins"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>kim</l>
-          <r>ktoprn<s n="prn"/><s n="aff"/><s n="loc"/></r>
+          <r>kto<s n="prn"/><s n="aff"/><s n="loc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>nikt</l>
-          <r>ktoprn<s n="prn"/><s n="neg"/><s n="nom"/></r>
+          <r>kto<s n="prn"/><s n="neg"/><s n="nom"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>nikogo</l>
-          <r>ktoprn<s n="prn"/><s n="neg"/><s n="gen"/></r>
+          <r>kto<s n="prn"/><s n="neg"/><s n="gen"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>nikomu</l>
-          <r>ktoprn<s n="prn"/><s n="neg"/><s n="dat"/></r>
+          <r>kto<s n="prn"/><s n="neg"/><s n="dat"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>nikogo</l>
-          <r>ktoprn<s n="prn"/><s n="neg"/><s n="acc"/></r>
+          <r>kto<s n="prn"/><s n="neg"/><s n="acc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>nikim</l>
-          <r>ktoprn<s n="prn"/><s n="neg"/><s n="ins"/></r>
+          <r>kto<s n="prn"/><s n="neg"/><s n="ins"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>nikim</l>
-          <r>ktoprn<s n="prn"/><s n="neg"/><s n="loc"/></r>
+          <r>kto<s n="prn"/><s n="neg"/><s n="loc"/></r>
         </p>
       </e>
     </pardef>
