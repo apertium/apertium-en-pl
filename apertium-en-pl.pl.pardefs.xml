@@ -3057,13 +3057,13 @@
           <r><s n="past"/><s n="p3"/><s n="n"/><s n="sg"/></r>
         </p>
       </e>
-      <e r="LR">
+      <e r="LR" c="teor">
         <p>
           <l>łom</l>
           <r><s n="past"/><s n="p1"/><s n="nt"/><s n="sg"/></r>
         </p>
       </e>
-      <e r="LR">
+      <e r="LR" c="teor">
         <p>
           <l>łoś</l>
           <r><s n="past"/><s n="p2"/><s n="nt"/><s n="sg"/></r>
@@ -3075,7 +3075,7 @@
           <r><s n="past"/><s n="p1"/><s n="ma"/><s n="pl"/></r>
         </p>
       </e>
-      <e r="LR">
+      <e r="LR" c="niepop">
         <p>
           <l>limy</l>
           <r><s n="past"/><s n="p1"/><s n="ma"/><s n="pl"/></r>
@@ -3087,7 +3087,7 @@
           <r><s n="past"/><s n="p2"/><s n="ma"/><s n="pl"/></r>
         </p>
       </e>
-      <e r="LR">
+      <e r="LR" c="niepop">
         <p>
           <l>licie</l>
           <r><s n="past"/><s n="p2"/><s n="ma"/><s n="pl"/></r>
@@ -3105,7 +3105,7 @@
           <r><s n="past"/><s n="p1"/><s n="nm"/><s n="pl"/></r>
         </p>
       </e>
-      <e r="LR">
+      <e r="LR" c="niepop">
         <p>
           <l>łymy</l>
           <r><s n="past"/><s n="p1"/><s n="nm"/><s n="pl"/></r>
@@ -3117,7 +3117,7 @@
           <r><s n="past"/><s n="p2"/><s n="nm"/><s n="pl"/></r>
         </p>
       </e>
-      <e r="LR">
+      <e r="LR" c="niepop">
         <p>
           <l>łycie</l>
           <r><s n="past"/><s n="p2"/><s n="nm"/><s n="pl"/></r>
@@ -3130,206 +3130,119 @@
         </p>
       </e>
     </pardef>
-
-    <pardef n="perf_m_pl1__n">
-      <e>
-        <p>
-          <l>y</l>
-          <r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ów</l>
-          <r><s n="n"/><s n="m"/><s n="pl"/><s n="gen"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>om</l>
-          <r><s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>y</l>
-          <r><s n="n"/><s n="m"/><s n="pl"/><s n="acc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ami</l>
-          <r><s n="n"/><s n="m"/><s n="pl"/><s n="ins"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ach</l>
-          <r><s n="n"/><s n="m"/><s n="pl"/><s n="loc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>y</l>
-          <r><s n="n"/><s n="m"/><s n="pl"/><s n="voc"/></r>
-        </p>
-      </e>
-    </pardef>
-
-    <pardef n="perf_past_pl_nm__v">
-    <!-- plurals -->
-      <e>
-        <p>
-          <l>łyśmy</l>
-          <r>ć<s n="vblex"/><s n="perf"/><s n="past"/><s n="p1"/><s n="nm"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e r="LR">
-        <p>
-          <l>łymy</l>
-          <r>ć<s n="vblex"/><s n="perf"/><s n="past"/><s n="p1"/><s n="nm"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>łyście</l>
-          <r>ć<s n="vblex"/><s n="perf"/><s n="past"/><s n="p2"/><s n="nm"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e r="LR">
-        <p>
-          <l>łycie</l>
-          <r>ć<s n="vblex"/><s n="perf"/><s n="past"/><s n="p2"/><s n="nm"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ły</l>
-          <r>ć<s n="vblex"/><s n="perf"/><s n="past"/><s n="p3"/><s n="nm"/><s n="pl"/></r>
-        </p>
-      </e>
-    </pardef>
-
-    <pardef n="perf_cni_sg__v">
+    <pardef n="cni__BASE">
       <e>
         <p>
           <l>łbym</l>
-          <r>ć<s n="vblex"/><s n="perf"/><s n="cni"/><s n="p1"/><s n="m"/><s n="sg"/></r>
+          <r><s n="cni"/><s n="p1"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>łabym</l>
-          <r>ć<s n="vblex"/><s n="perf"/><s n="cni"/><s n="p1"/><s n="f"/><s n="sg"/></r>
+          <r><s n="cni"/><s n="p1"/><s n="f"/><s n="sg"/></r>
         </p>
       </e>
       <e>
-       <p>
+        <p>
           <l>łbyś</l>
-          <r>ć<s n="vblex"/><s n="perf"/><s n="cni"/><s n="p2"/><s n="m"/><s n="sg"/></r>
+          <r><s n="cni"/><s n="p2"/><s n="m"/><s n="sg"/></r>
         </p>
       </e>
       <e>
-       <p>
+        <p>
           <l>łabyś</l>
-          <r>ć<s n="vblex"/><s n="perf"/><s n="cni"/><s n="p2"/><s n="f"/><s n="sg"/></r>
-       </p>
-      </e>
-      <e>
-       <p>
-          <l>łby</l>
-          <r>ć<s n="vblex"/><s n="perf"/><s n="cni"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+          <r><s n="cni"/><s n="p2"/><s n="f"/><s n="sg"/></r>
         </p>
       </e>
       <e>
-       <p>
-          <l>łaby</l>
-          <r>ć<s n="vblex"/><s n="perf"/><s n="cni"/><s n="p3"/><s n="f"/><s n="sg"/></r>
-       </p>
+        <p>
+          <l>łby</l>
+          <r><s n="cni"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+        </p>
       </e>
       <e>
-       <p>
-          <l>łoby</l>
-          <r>ć<s n="vblex"/><s n="perf"/><s n="cni"/><s n="p3"/><s n="n"/><s n="sg"/></r>
-       </p>
+        <p>
+          <l>łaby</l>
+          <r><s n="cni"/><s n="p3"/><s n="f"/><s n="sg"/></r>
+        </p>
       </e>
-    </pardef>
-    <pardef n="perf_cni_sg_n__v">
-      <e r="LR">
+      <e>
+        <p>
+          <l>łoby</l>
+          <r><s n="cni"/><s n="p3"/><s n="n"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="LR" c="teor">
         <p>
           <l>łobym</l>
-          <r>ć<s n="vblex"/><s n="perf"/><s n="cni"/><s n="p1"/><s n="nt"/><s n="sg"/></r>
+          <r><s n="cni"/><s n="p1"/><s n="nt"/><s n="sg"/></r>
         </p>
       </e>
-      <e r="LR">
-       <p>
+      <e r="LR" c="teor">
+        <p>
           <l>łobyś</l>
-          <r>ć<s n="vblex"/><s n="perf"/><s n="cni"/><s n="p2"/><s n="nt"/><s n="sg"/></r>
-       </p>
+          <r><s n="cni"/><s n="p2"/><s n="nt"/><s n="sg"/></r>
+        </p>
       </e>
-    </pardef>
-    <pardef n="perf_cni_pl_m__v">
       <e>
         <p>
           <l>libyśmy</l>
-          <r>ć<s n="vblex"/><s n="perf"/><s n="cni"/><s n="p1"/><s n="m"/><s n="pl"/></r>
+          <r><s n="cni"/><s n="p1"/><s n="ma"/><s n="pl"/></r>
         </p>
       </e>
-      <e r="LR">
+      <e r="LR" c="niepop">
         <p>
           <l>libymy</l>
-          <r>ć<s n="vblex"/><s n="perf"/><s n="cni"/><s n="p1"/><s n="m"/><s n="pl"/></r>
+          <r><s n="cni"/><s n="p1"/><s n="ma"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>libyście</l>
-          <r>ć<s n="vblex"/><s n="perf"/><s n="cni"/><s n="p2"/><s n="m"/><s n="pl"/></r>
+          <r><s n="cni"/><s n="p2"/><s n="ma"/><s n="pl"/></r>
         </p>
       </e>
-      <e r="LR">
+      <e r="LR" c="niepop">
         <p>
           <l>libycie</l>
-          <r>ć<s n="vblex"/><s n="perf"/><s n="cni"/><s n="p2"/><s n="m"/><s n="pl"/></r>
+          <r><s n="cni"/><s n="p2"/><s n="ma"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>liby</l>
-          <r>ć<s n="vblex"/><s n="perf"/><s n="cni"/><s n="p3"/><s n="m"/><s n="pl"/></r>
+          <r><s n="cni"/><s n="p3"/><s n="ma"/><s n="pl"/></r>
         </p>
       </e>
-    </pardef>
-    <pardef n="perf_cni_pl_nm__v">
-    <!-- plurals -->
       <e>
         <p>
           <l>łybyśmy</l>
-          <r>ć<s n="vblex"/><s n="perf"/><s n="cni"/><s n="p1"/><s n="nm"/><s n="pl"/></r>
+          <r><s n="cni"/><s n="p1"/><s n="nm"/><s n="pl"/></r>
         </p>
       </e>
-      <e r="LR">
+      <e r="LR" c="niepop">
         <p>
           <l>łybymy</l>
-          <r>ć<s n="vblex"/><s n="perf"/><s n="cni"/><s n="p1"/><s n="nm"/><s n="pl"/></r>
+          <r><s n="cni"/><s n="p1"/><s n="nm"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>łybyście</l>
-          <r>ć<s n="vblex"/><s n="perf"/><s n="cni"/><s n="p2"/><s n="nm"/><s n="pl"/></r>
+          <r><s n="cni"/><s n="p2"/><s n="nm"/><s n="pl"/></r>
         </p>
       </e>
-      <e r="LR">
+      <e r="LR" c="niepop">
         <p>
           <l>łybycie</l>
-          <r>ć<s n="vblex"/><s n="perf"/><s n="cni"/><s n="p2"/><s n="nm"/><s n="pl"/></r>
+          <r><s n="cni"/><s n="p2"/><s n="nm"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>łyby</l>
-          <r>ć<s n="vblex"/><s n="perf"/><s n="cni"/><s n="p3"/><s n="nm"/><s n="pl"/></r>
+          <r><s n="cni"/><s n="p3"/><s n="nm"/><s n="pl"/></r>
         </p>
       </e>
     </pardef>
