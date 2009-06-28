@@ -3014,93 +3014,119 @@
       </e>
     </pardef>
 
-    <pardef n="perf_past_sg__v">
+    <pardef n="past__BASE">
      <e>
       <p>
         <l>łem</l>
-        <r>ć<s n="vblex"/><s n="perf"/><s n="past"/><s n="p1"/><s n="m"/><s n="sg"/></r>
+        <r><s n="past"/><s n="p1"/><s n="m"/><s n="sg"/></r>
       </p>
      </e>
      <e>
       <p>
         <l>łam</l>
-        <r>ć<s n="vblex"/><s n="perf"/><s n="past"/><s n="p1"/><s n="f"/><s n="sg"/></r>
+        <r><s n="past"/><s n="p1"/><s n="f"/><s n="sg"/></r>
       </p>
      </e>
      <e>
        <p>
          <l>łeś</l>
-         <r>ć<s n="vblex"/><s n="perf"/><s n="past"/><s n="p2"/><s n="m"/><s n="sg"/></r>
+         <r><s n="past"/><s n="p2"/><s n="m"/><s n="sg"/></r>
       </p>
     </e>
     <e>
        <p>
          <l>łaś</l>
-         <r>ć<s n="vblex"/><s n="perf"/><s n="past"/><s n="p2"/><s n="f"/><s n="sg"/></r>
+         <r><s n="past"/><s n="p2"/><s n="f"/><s n="sg"/></r>
        </p>
      </e>
      <e>
        <p>
          <l>ł</l>
-         <r>ć<s n="vblex"/><s n="perf"/><s n="past"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+         <r><s n="past"/><s n="p3"/><s n="m"/><s n="sg"/></r>
       </p>
      </e>
      <e>
        <p>
          <l>ła</l>
-         <r>ć<s n="vblex"/><s n="perf"/><s n="past"/><s n="p3"/><s n="f"/><s n="sg"/></r>
+         <r><s n="past"/><s n="p3"/><s n="f"/><s n="sg"/></r>
        </p>
      </e>
      <e>
        <p>
          <l>ło</l>
-         <r>ć<s n="vblex"/><s n="perf"/><s n="past"/><s n="p3"/><s n="n"/><s n="sg"/></r>
+         <r><s n="past"/><s n="p3"/><s n="n"/><s n="sg"/></r>
        </p>
      </e>
-    </pardef>
-    <pardef n="perf_past_sg_n__v">
      <e r="LR">
       <p>
         <l>łom</l>
-        <r>ć<s n="vblex"/><s n="perf"/><s n="past"/><s n="p1"/><s n="nt"/><s n="sg"/></r>
+        <r><s n="past"/><s n="p1"/><s n="nt"/><s n="sg"/></r>
       </p>
      </e>
      <e r="LR">
        <p>
          <l>łoś</l>
-         <r>ć<s n="vblex"/><s n="perf"/><s n="past"/><s n="p2"/><s n="nt"/><s n="sg"/></r>
+         <r><s n="past"/><s n="p2"/><s n="nt"/><s n="sg"/></r>
        </p>
      </e>
-    </pardef>
-    <pardef n="perf_past_pl_m__v">
      <e>
       <p>
         <l>liśmy</l>
-        <r>ć<s n="vblex"/><s n="perf"/><s n="past"/><s n="p1"/><s n="m"/><s n="pl"/></r>
+        <r><s n="past"/><s n="p1"/><s n="ma"/><s n="pl"/></r>
       </p>
      </e>
      <e r="LR">
       <p>
         <l>limy</l>
-        <r>ć<s n="vblex"/><s n="perf"/><s n="past"/><s n="p1"/><s n="m"/><s n="pl"/></r>
+        <r><s n="past"/><s n="p1"/><s n="ma"/><s n="pl"/></r>
       </p>
      </e>
      <e>
       <p>
         <l>liście</l>
-        <r>ć<s n="vblex"/><s n="perf"/><s n="past"/><s n="p2"/><s n="m"/><s n="pl"/></r>
+        <r><s n="past"/><s n="p2"/><s n="ma"/><s n="pl"/></r>
       </p>
      </e>
      <e r="LR">
       <p>
         <l>licie</l>
-        <r>ć<s n="vblex"/><s n="perf"/><s n="past"/><s n="p2"/><s n="m"/><s n="pl"/></r>
+        <r><s n="past"/><s n="p2"/><s n="ma"/><s n="pl"/></r>
       </p>
      </e>
      <e>
       <p>
         <l>li</l>
-        <r>ć<s n="vblex"/><s n="perf"/><s n="past"/><s n="p3"/><s n="m"/><s n="pl"/></r>
+        <r><s n="past"/><s n="p3"/><s n="ma"/><s n="pl"/></r>
+      </p>
+     </e>
+     <e>
+      <p>
+        <l>łyśmy</l>
+        <r><s n="past"/><s n="p1"/><s n="nm"/><s n="pl"/></r>
+      </p>
+     </e>
+     <e r="LR">
+      <p>
+        <l>łymy</l>
+        <r><s n="past"/><s n="p1"/><s n="nm"/><s n="pl"/></r>
+      </p>
+     </e>
+     <e>
+      <p>
+        <l>łyście</l>
+        <r><s n="past"/><s n="p2"/><s n="nm"/><s n="pl"/></r>
+      </p>
+     </e>
+     <e r="LR">
+      <p>
+        <l>łycie</l>
+        <r><s n="past"/><s n="p2"/><s n="nm"/><s n="pl"/></r>
+      </p>
+     </e>
+     <e>
+      <p>
+        <l>ły</l>
+        <r><s n="past"/><s n="p3"/><s n="nm"/><s n="pl"/></r>
       </p>
      </e>
     </pardef>
