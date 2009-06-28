@@ -1413,7 +1413,7 @@
           <r>en<s n="num"/><s n="mf"/><s n="pl"/><s n="dat"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
      <pardef n="dw/a__num">
       <e>
         <p>
@@ -1973,7 +1973,7 @@
           <r>a<s n="num"/><s n="nt"/><s n="pl"/><s n="ins"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="dwoj/e__num">
       <e>
         <p>
@@ -2135,7 +2135,7 @@
           <r>ka<s n="np"/><s n="ant"/><s n="f"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
 
     <!-- 'nie' prefix -->
     <pardef n="nie__prefix">
@@ -2252,7 +2252,7 @@
           <r>a<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
      <pardef n="cia__np">
       <e>
         <p>
@@ -2338,7 +2338,7 @@
           <r>a<s n="np"/><s n="ant"/><s n="f"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
      <pardef n="ka_base_dim__n">
       <e>
         <p>
@@ -2418,7 +2418,7 @@
           <r>a<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
      <pardef n="ka_base_dim__np">
       <e>
         <p>
@@ -2498,7 +2498,7 @@
           <r>a<s n="np"/><s n="ant"/><s n="f"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
      <pardef n="matka_ka_dim__n">
       <e>
         <p>
@@ -2506,7 +2506,7 @@
           <r>a<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
      <pardef n="rzeka_ka_dim__n">
       <e>
         <p>
@@ -2514,7 +2514,7 @@
           <r>a<s n="n"/><s n="f"/><s n="pl"/><s n="gen"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
      <pardef n="matka_ka_dim__np">
       <e>
         <p>
@@ -2522,7 +2522,7 @@
           <r>a<s n="np"/><s n="ant"/><s n="f"/><s n="pl"/><s n="gen"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
      <pardef n="rzeka_ka_dim__np">
       <e>
         <p>
@@ -2530,7 +2530,7 @@
           <r>a<s n="np"/><s n="ant"/><s n="f"/><s n="pl"/><s n="gen"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="French_male_name_base__np">
       <e>
         <p>
@@ -2984,43 +2984,32 @@
       </p>
      </e>
     </pardef>
-    <pardef n="perf_imperative__v">
+    <pardef n="imperative__BASE">
       <e>
         <p>
           <l>j</l>
-          <r>ć<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
+          <r></r>
         </p>
-      </e>
-      <e>
-        <p>
-          <l>jmy</l>
-          <r>ć<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p1"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>jcie</l>
-          <r>ć<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
-       </p>
+      <par n="imperative-noj__BASE"/>
       </e>
     </pardef>
-    <pardef n="perf_imperative-noj__v">
+    <pardef n="imperative-noj__BASE">
       <e>
         <p>
           <l></l>
-          <r>ć<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
+          <r><s n="imp"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>my</l>
-          <r>ć<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p1"/><s n="pl"/></r>
+          <r><s n="imp"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>cie</l>
-          <r>ć<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
+          <r><s n="imp"/><s n="p2"/><s n="pl"/></r>
        </p>
       </e>
     </pardef>
@@ -10426,7 +10415,7 @@
         <r>ieć<s n="vbhaver"/><s n="imperf"/><s n="past"/><s n="p3"/><s n="nm"/><s n="pl"/></r>
       </p>
      </e>
-     </pardef>
+    </pardef>
      <pardef n="powin/ien__vaux">
       <e>
         <p>
@@ -10592,7 +10581,7 @@
           <r>ć<s n="ger"/><s n="nt"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="zdję/cie__ger">
       <e>
         <p>
@@ -10678,7 +10667,7 @@
           <r>ć<s n="ger"/><s n="nt"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
      <pardef n="czyt/ać__vblex">
       <e>
          <p>
@@ -10743,7 +10732,7 @@
       <!-- Gerund -->
       <!-- should be moved -->
       <e><i>a</i><par n="czyta/nie__ger"/></e>
-     </pardef>
+    </pardef>
      <pardef n="b/ać__vblex">
       <e>
          <p>
@@ -10798,7 +10787,7 @@
       <e><i>a</i><par n="cni_pl_m__v"/></e>
       <e><i>a</i><par n="cni_pl_nm__v"/></e>
       
-     </pardef>
+    </pardef>
      <pardef n="bi/ć__vblex">
       <e>
          <p>
@@ -10853,7 +10842,7 @@
       <e><i></i><par n="cni_pl_m__v"/></e>
       <e><i></i><par n="cni_pl_nm__v"/></e>
       
-     </pardef>
+    </pardef>
      <pardef n="tani/eć__vblex">
       <e>
          <p>
@@ -10917,7 +10906,7 @@
       </e>
       <!-- Gerund -->
       <e><i>e</i><par n="czyta/nie__ger"/></e>
-     </pardef>
+    </pardef>
      <pardef n="umi/eć__vblex">
       <e>
          <p>
@@ -11114,11 +11103,11 @@
           <r>ać<s n="vblex"/><s n="past"/><s n="nt"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
      <pardef n="przeczyt/ać__vblex">
       <!-- Gerund -->
       <e><i>a</i><par n="czyta/nie__ger"/></e>
-     </pardef>
+    </pardef>
      <pardef n="potani/eć__vblex">
       <e>
          <p>
@@ -11175,7 +11164,7 @@
       
       <!-- Gerund -->
       <e><i>e</i><par n="czyta/nie__ger"/></e>
-     </pardef>
+    </pardef>
      <pardef n="zrozum/ieć__vblex">
       <e>
          <p>
@@ -11961,7 +11950,7 @@
           <r><s n="n"/><s n="m3"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
      <pardef n="hotel/__n">
       <e>
         <p>
@@ -12047,7 +12036,7 @@
           <r><s n="n"/><s n="m3"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
      <pardef n="st/ół__n">
       <e>
         <p>
@@ -12133,7 +12122,7 @@
           <r>ół<s n="n"/><s n="m3"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
      <pardef n="goł/ąb__n">
       <e>
         <p>
@@ -12219,7 +12208,7 @@
           <r>ąb<s n="n"/><s n="m2"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="ko/t__n">
       <e>
         <p>
@@ -12305,7 +12294,7 @@
           <r>t<s n="n"/><s n="m2"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="d/zień__n">
       <e>
         <p>
@@ -12409,7 +12398,7 @@
           <r>zień<s n="n"/><s n="m3"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="ty/dzień__n">
       <e>
         <p>
@@ -12495,7 +12484,7 @@
           <r>dzień<s n="n"/><s n="m3"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="miesi/ąc__n">
       <e>
         <p>
@@ -12581,7 +12570,7 @@
           <r>ąc<s n="n"/><s n="m3"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="studen/t__n">
       <e>
         <p>
@@ -12667,7 +12656,7 @@
           <r>t<s n="n"/><s n="m1"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="bra/t__n">
       <e>
         <p>
@@ -12753,7 +12742,7 @@
           <r>t<s n="n"/><s n="m1"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="przyjaci/el__n">
       <e>
         <p>
@@ -12839,7 +12828,7 @@
           <r>el<s n="n"/><s n="m1"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="syn/__n">
       <e>
         <p>
@@ -12937,7 +12926,7 @@
           <r><s n="n"/><s n="m1"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
      <pardef n="lekarz/__n">
       <e>
         <p>
@@ -13023,7 +13012,7 @@
           <r><s n="n"/><s n="m1"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
      <pardef n="m/ąż__n">
       <e>
         <p>
@@ -13109,7 +13098,7 @@
           <r>ąż<s n="n"/><s n="m1"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="ojc/iec__n">
       <e>
         <p>
@@ -13195,7 +13184,7 @@
           <r>iec<s n="n"/><s n="m1"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="maluch/__n">
       <e>
         <p>
@@ -13281,7 +13270,7 @@
           <r><s n="n"/><s n="m3"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="dach/__n">
       <e>
         <p>
@@ -13367,7 +13356,7 @@
           <r><s n="n"/><s n="m3"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="samoch/ód__n">
       <e>
         <p>
@@ -13453,7 +13442,7 @@
           <r>ód<s n="n"/><s n="m3"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
       <pardef n="ani/oł__n">
       <e>
         <p>
@@ -13563,7 +13552,7 @@
           <r>oł<s n="n"/><s n="m1"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="kobie/ta__n">
       <e>
         <p>
@@ -13649,7 +13638,7 @@
           <r>ta<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="ulic/a__n">
       <e>
         <p>
@@ -13735,7 +13724,7 @@
           <r>a<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="n/oga__n">
       <e>
         <p>
@@ -13821,7 +13810,7 @@
           <r>oga<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="ksi/ęga__n">
       <e>
         <p>
@@ -13907,7 +13896,7 @@
           <r>ęga<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="r/ęka__n">
       <e>
         <p>
@@ -13999,7 +13988,7 @@
           <r>ęka<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
      <pardef n="mat/ka__n">
       <e>
         <p>
@@ -14085,7 +14074,7 @@
           <r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
      <pardef n="cio/cia__n">
       <e>
         <p>
@@ -14171,7 +14160,7 @@
           <r>cia<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
      <pardef n="w/oda__n">
       <e>
         <p>
@@ -14257,7 +14246,7 @@
           <r>oda<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
      <pardef n="od/a__n">
       <e>
         <p>
@@ -14343,7 +14332,7 @@
           <r>a<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
      <pardef n="viagr/a__n">
       <e>
         <p>
@@ -14429,7 +14418,7 @@
           <r>a<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
      <pardef n="piw/o__n">
       <e>
         <p>
@@ -14515,7 +14504,7 @@
           <r>o<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
      <pardef n="jut/ro__n">
       <e>
         <p>
@@ -14608,7 +14597,7 @@
           <r>ro<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
      <pardef n="sł/owo__n">
       <e>
         <p>
@@ -14694,7 +14683,7 @@
           <r>owo<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
      <pardef n="rze/ka__n">
       <e>
         <p>
@@ -14780,7 +14769,7 @@
           <r>ka<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
      <pardef n="pa/sta__n">
       <e>
         <p>
@@ -14866,7 +14855,7 @@
           <r>sta<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="noc/__n">
       <e>
         <p>
@@ -14952,7 +14941,7 @@
           <r><s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="koś/ć__n">
       <e>
         <p>
@@ -15044,7 +15033,7 @@
           <r>ć<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="miłoś/ć__n">
       <e>
         <p>
@@ -15130,7 +15119,7 @@
           <r>ć<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="gospody/ni__n">
       <e>
         <p>
@@ -15216,7 +15205,7 @@
           <r>ni<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="gwi/azda__n">
       <e>
         <p>
@@ -15302,7 +15291,7 @@
           <r>azda<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="teściow/a__n">
       <e>
         <p>
@@ -15388,7 +15377,7 @@
           <r>a<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="królow/a__n">
       <e><i/><par n="teściow/a__n"/></e>
       <e r="LR">
@@ -15403,7 +15392,7 @@
           <r>a<s n="n"/><s n="f"/><s n="pl"/><s n="loc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="mi/asto__n">
       <e>
         <p>
@@ -15483,93 +15472,102 @@
           <r>asto<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r>
         </p>
       </e>
-     </pardef>
-    <pardef n="zda/nie__n">
+    </pardef>
+    <pardef n="zda/nie__BASE">
       <e>
         <p>
           <l>nie</l>
-          <r>nie<s n="n"/><s n="nt"/><s n="sg"/><s n="nom"/></r>
+          <r><s n="nt"/><s n="sg"/><s n="nom"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>nia</l>
-          <r>nie<s n="n"/><s n="nt"/><s n="sg"/><s n="gen"/></r>
+          <r><s n="nt"/><s n="sg"/><s n="gen"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>niu</l>
-          <r>nie<s n="n"/><s n="nt"/><s n="sg"/><s n="dat"/></r>
+          <r><s n="nt"/><s n="sg"/><s n="dat"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>nie</l>
-          <r>nie<s n="n"/><s n="nt"/><s n="sg"/><s n="acc"/></r>
+          <r><s n="nt"/><s n="sg"/><s n="acc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>niem</l>
-          <r>nie<s n="n"/><s n="nt"/><s n="sg"/><s n="ins"/></r>
+          <r><s n="nt"/><s n="sg"/><s n="ins"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>niu</l>
-          <r>nie<s n="n"/><s n="nt"/><s n="sg"/><s n="loc"/></r>
+          <r><s n="nt"/><s n="sg"/><s n="loc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>nie</l>
-          <r>nie<s n="n"/><s n="nt"/><s n="sg"/><s n="voc"/></r>
+          <r><s n="nt"/><s n="sg"/><s n="voc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>nia</l>
-          <r>nie<s n="n"/><s n="nt"/><s n="pl"/><s n="nom"/></r>
+          <r><s n="nt"/><s n="pl"/><s n="nom"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ń</l>
-          <r>nie<s n="n"/><s n="nt"/><s n="pl"/><s n="gen"/></r>
+          <r><s n="nt"/><s n="pl"/><s n="gen"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>niom</l>
-          <r>nie<s n="n"/><s n="nt"/><s n="pl"/><s n="dat"/></r>
+          <r><s n="nt"/><s n="pl"/><s n="dat"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>nia</l>
-          <r>nie<s n="n"/><s n="nt"/><s n="pl"/><s n="acc"/></r>
+          <r><s n="nt"/><s n="pl"/><s n="acc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>niami</l>
-          <r>nie<s n="n"/><s n="nt"/><s n="pl"/><s n="ins"/></r>
+          <r><s n="nt"/><s n="pl"/><s n="ins"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>niach</l>
-          <r>nie<s n="n"/><s n="nt"/><s n="pl"/><s n="loc"/></r>
+          <r><s n="nt"/><s n="pl"/><s n="loc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>nia</l>
-          <r>nie<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r>
+          <r><s n="nt"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
+    <pardef n="zda/nie__n">
+      <e>
+        <p>
+	  <l></l>
+	  <r>nie<s n="n"/></r>
+	</p>
+	<par n="zda/nie__BASE"/>
+      </p>
+    </pardef>
     <pardef n="o/ko__n">
       <e>
         <p>
@@ -15673,7 +15671,7 @@
           <r>ko<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="u/cho__n">
       <e>
         <p>
@@ -15777,7 +15775,7 @@
           <r>cho<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="muze/um__n">
       <e>
         <p>
@@ -15863,7 +15861,7 @@
           <r>um<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="dzie/cko__n">
       <e>
         <p>
@@ -15949,7 +15947,7 @@
           <r>cko<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="zwierz/ę__n">
       <e>
         <p>
@@ -16035,7 +16033,7 @@
           <r>ę<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
      <pardef n="imi/ę__n">
       <e>
         <p>
@@ -16121,7 +16119,7 @@
           <r>ę<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
      <pardef n="jabł/ko__n">
       <e>
         <p>
@@ -16207,7 +16205,7 @@
           <r>ko<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="ok/no__n">
       <e>
         <p>
@@ -16293,7 +16291,7 @@
           <r>no<s n="n"/><s n="nt"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="źród/ło__n">
       <e>
         <p>
@@ -16551,7 +16549,7 @@
           <r>a<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="abdykac/ja__n">
      <e>
        <p>
@@ -16733,7 +16731,7 @@
           <r>ń<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
      <pardef n="profanacj/a__n">
       <e>
         <p>
@@ -33418,7 +33416,7 @@
           <r>ta<s n="np"/><s n="ant"/><s n="f"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
      <pardef n="Iz/a__np">
       <e>
         <p>
@@ -33504,7 +33502,7 @@
           <r>a<s n="np"/><s n="ant"/><s n="f"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="Nor/a__np">
       <e>
         <p>
@@ -43196,7 +43194,7 @@
           <r>z<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="rzecz/__n">
       <e>
         <p>
@@ -43282,7 +43280,7 @@
           <r><s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="rzecz/pospolita__n">
       <e>
         <p>
@@ -43440,7 +43438,7 @@
           <r>pospolita<s n="n"/><s n="f"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
     <pardef n="HTML/__n">
       <e>
         <p>
@@ -43544,20 +43542,20 @@
           <r><s n="n"/><s n="acr"/><s n="m3"/><s n="sg"/><s n="voc"/></r>
         </p>
       </e>
-     </pardef>
+    </pardef>
 
      <pardef n="lekar/z__n">
       <!-- Generate the male form -->
       <e><i>z</i><par n="lekarz/__n"/></e>
       <!-- Generate the female form -->
       <e><i/><par n="lekar/ka__n"/></e>
-     </pardef>
+    </pardef>
      <pardef n="mistrz/__n">
       <!-- Generate the male form -->
       <e><i/><par n="lekarz/__n"/></e>
       <!-- Generate the female form -->
       <e><i>y</i><par n="gospody/ni__n"/></e>
-     </pardef>
+    </pardef>
 
   </pardefs>
 
