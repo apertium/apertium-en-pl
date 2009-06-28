@@ -3246,856 +3246,153 @@
         </p>
       </e>
     </pardef>
-    <pardef n="c_imperative__v">
-      <e>
-        <p>
-          <l>j</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>jmy</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="imp"/><s n="p1"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>jcie</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
-       </p>
-      </e>
-    </pardef>
-    <pardef n="c_imperative-noj__v">
-      <e>
-        <p>
-          <l></l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>my</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="imp"/><s n="p1"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>cie</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
-       </p>
-      </e>
-    </pardef>
-
-    <pardef n="c_past_sg__v">
-      <e>
-        <p>
-          <l>łem</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="past"/><s n="p1"/><s n="m"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>łam</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="past"/><s n="p1"/><s n="f"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-       <p>
-          <l>łeś</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="past"/><s n="p2"/><s n="m"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-       <p>
-          <l>łaś</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="past"/><s n="p2"/><s n="f"/><s n="sg"/></r>
-       </p>
-      </e>
-      <e>
-       <p>
-          <l>ł</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="past"/><s n="p3"/><s n="m"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-       <p>
-          <l>ła</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="past"/><s n="p3"/><s n="f"/><s n="sg"/></r>
-       </p>
-      </e>
-      <e>
-       <p>
-          <l>ło</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="past"/><s n="p3"/><s n="n"/><s n="sg"/></r>
-       </p>
-      </e>
-    </pardef>
-    <pardef n="c_past_sg_n__v">
-      <e r="LR">
-        <p>
-          <l>łom</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="past"/><s n="p1"/><s n="nt"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e r="LR">
-       <p>
-          <l>łoś</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="past"/><s n="p2"/><s n="nt"/><s n="sg"/></r>
-       </p>
-      </e>
-    </pardef>
-    <pardef n="c_past_pl_m__v">
-      <e>
-        <p>
-          <l>liśmy</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="past"/><s n="p1"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e r="LR">
-        <p>
-          <l>limy</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="past"/><s n="p1"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>liście</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="past"/><s n="p2"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e r="LR">
-        <p>
-          <l>licie</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="past"/><s n="p2"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>li</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="past"/><s n="p3"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e>
-    </pardef>
-
-    <pardef n="c_m_pl1__n">
-      <e>
-        <p>
-          <l>y</l>
-          <r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ów</l>
-          <r><s n="n"/><s n="m"/><s n="pl"/><s n="gen"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>om</l>
-          <r><s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>y</l>
-          <r><s n="n"/><s n="m"/><s n="pl"/><s n="acc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ami</l>
-          <r><s n="n"/><s n="m"/><s n="pl"/><s n="ins"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ach</l>
-          <r><s n="n"/><s n="m"/><s n="pl"/><s n="loc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>y</l>
-          <r><s n="n"/><s n="m"/><s n="pl"/><s n="voc"/></r>
-        </p>
-      </e>
-    </pardef>
-
-    <pardef n="c_past_pl_nm__v">
-    <!-- plurals -->
-      <e>
-        <p>
-          <l>łyśmy</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="past"/><s n="p1"/><s n="nm"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e r="LR">
-        <p>
-          <l>łymy</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="past"/><s n="p1"/><s n="nm"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>łyście</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="past"/><s n="p2"/><s n="nm"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e r="LR">
-        <p>
-          <l>łycie</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="past"/><s n="p2"/><s n="nm"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ły</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="past"/><s n="p3"/><s n="nm"/><s n="pl"/></r>
-        </p>
-      </e>
-    </pardef>
-
-    <pardef n="c_cni_sg__v">
-      <e>
-        <p>
-          <l>łbym</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="cni"/><s n="p1"/><s n="m"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>łabym</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="cni"/><s n="p1"/><s n="f"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-       <p>
-          <l>łbyś</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="cni"/><s n="p2"/><s n="m"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-       <p>
-          <l>łabyś</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="cni"/><s n="p2"/><s n="f"/><s n="sg"/></r>
-       </p>
-      </e>
-      <e>
-       <p>
-          <l>łby</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="cni"/><s n="p3"/><s n="m"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-       <p>
-          <l>łaby</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="cni"/><s n="p3"/><s n="f"/><s n="sg"/></r>
-       </p>
-      </e>
-      <e>
-       <p>
-          <l>łoby</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="cni"/><s n="p3"/><s n="n"/><s n="sg"/></r>
-       </p>
-      </e>
-    </pardef>
-    <pardef n="c_cni_sg_n__v">
-      <e r="LR">
-        <p>
-          <l>łobym</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="cni"/><s n="p1"/><s n="nt"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e r="LR">
-       <p>
-          <l>łobyś</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="cni"/><s n="p2"/><s n="nt"/><s n="sg"/></r>
-       </p>
-      </e>
-    </pardef>
-    <pardef n="c_cni_pl_m__v">
-      <e>
-        <p>
-          <l>libyśmy</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="cni"/><s n="p1"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e r="LR">
-        <p>
-          <l>libymy</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="cni"/><s n="p1"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>libyście</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="cni"/><s n="p2"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e r="LR">
-        <p>
-          <l>libycie</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="cni"/><s n="p2"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>liby</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="cni"/><s n="p3"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e>
-    </pardef>
-    <pardef n="c_cni_pl_nm__v">
-    <!-- plurals -->
-      <e>
-        <p>
-          <l>łybyśmy</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="cni"/><s n="p1"/><s n="nm"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e r="LR">
-        <p>
-          <l>łybymy</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="cni"/><s n="p1"/><s n="nm"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>łybyście</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="cni"/><s n="p2"/><s n="nm"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e r="LR">
-        <p>
-          <l>łybycie</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="cni"/><s n="p2"/><s n="nm"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>łyby</l>
-          <r>c<s n="vblex"/><s n="imperf"/><s n="cni"/><s n="p3"/><s n="nm"/><s n="pl"/></r>
-        </p>
-      </e>
-    </pardef>
-    <pardef n="c_perf_imperative__v">
-      <e>
-        <p>
-          <l>j</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>jmy</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p1"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>jcie</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
-       </p>
-      </e>
-    </pardef>
-    <pardef n="c_perf_imperative-noj__v">
-      <e>
-        <p>
-          <l></l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>my</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p1"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>cie</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="imp"/><s n="p2"/><s n="pl"/></r>
-       </p>
-      </e>
-    </pardef>
-
-    <pardef n="c_perf_past_sg__v">
-      <e>
-        <p>
-          <l>łem</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="past"/><s n="p1"/><s n="m"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>łam</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="past"/><s n="p1"/><s n="f"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-       <p>
-          <l>łeś</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="past"/><s n="p2"/><s n="m"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-       <p>
-          <l>łaś</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="past"/><s n="p2"/><s n="f"/><s n="sg"/></r>
-       </p>
-      </e>
-      <e>
-       <p>
-          <l>ł</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="past"/><s n="p3"/><s n="m"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-       <p>
-          <l>ła</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="past"/><s n="p3"/><s n="f"/><s n="sg"/></r>
-       </p>
-      </e>
-      <e>
-       <p>
-          <l>ło</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="past"/><s n="p3"/><s n="n"/><s n="sg"/></r>
-       </p>
-      </e>
-    </pardef>
-    <pardef n="c_perf_past_sg_n__v">
-      <e r="LR">
-        <p>
-          <l>łom</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="past"/><s n="p1"/><s n="nt"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e r="LR">
-       <p>
-          <l>łoś</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="past"/><s n="p2"/><s n="nt"/><s n="sg"/></r>
-       </p>
-      </e>
-    </pardef>
-    <pardef n="c_perf_past_pl_m__v">
-      <e>
-        <p>
-          <l>liśmy</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="past"/><s n="p1"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e r="LR">
-        <p>
-          <l>limy</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="past"/><s n="p1"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>liście</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="past"/><s n="p2"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e r="LR">
-        <p>
-          <l>licie</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="past"/><s n="p2"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>li</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="past"/><s n="p3"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e>
-    </pardef>
-
-    <pardef n="c_perf_m_pl1__n">
-      <e>
-        <p>
-          <l>y</l>
-          <r><s n="n"/><s n="m"/><s n="pl"/><s n="nom"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ów</l>
-          <r><s n="n"/><s n="m"/><s n="pl"/><s n="gen"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>om</l>
-          <r><s n="n"/><s n="m"/><s n="pl"/><s n="dat"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>y</l>
-          <r><s n="n"/><s n="m"/><s n="pl"/><s n="acc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ami</l>
-          <r><s n="n"/><s n="m"/><s n="pl"/><s n="ins"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ach</l>
-          <r><s n="n"/><s n="m"/><s n="pl"/><s n="loc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>y</l>
-          <r><s n="n"/><s n="m"/><s n="pl"/><s n="voc"/></r>
-        </p>
-      </e>
-    </pardef>
-
-    <pardef n="c_perf_past_pl_nm__v">
-    <!-- plurals -->
-      <e>
-        <p>
-          <l>łyśmy</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="past"/><s n="p1"/><s n="nm"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e r="LR">
-        <p>
-          <l>łymy</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="past"/><s n="p1"/><s n="nm"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>łyście</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="past"/><s n="p2"/><s n="nm"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e r="LR">
-        <p>
-          <l>łycie</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="past"/><s n="p2"/><s n="nm"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ły</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="past"/><s n="p3"/><s n="nm"/><s n="pl"/></r>
-        </p>
-      </e>
-    </pardef>
-
-    <pardef n="c_perf_cni_sg__v">
-      <e>
-        <p>
-          <l>łbym</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="cni"/><s n="p1"/><s n="m"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>łabym</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="cni"/><s n="p1"/><s n="f"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-       <p>
-          <l>łbyś</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="cni"/><s n="p2"/><s n="m"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-       <p>
-          <l>łabyś</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="cni"/><s n="p2"/><s n="f"/><s n="sg"/></r>
-       </p>
-      </e>
-      <e>
-       <p>
-          <l>łby</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="cni"/><s n="p3"/><s n="m"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-       <p>
-          <l>łaby</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="cni"/><s n="p3"/><s n="f"/><s n="sg"/></r>
-       </p>
-      </e>
-      <e>
-       <p>
-          <l>łoby</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="cni"/><s n="p3"/><s n="n"/><s n="sg"/></r>
-       </p>
-      </e>
-    </pardef>
-    <pardef n="c_perf_cni_sg_n__v">
-      <e r="LR">
-        <p>
-          <l>łobym</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="cni"/><s n="p1"/><s n="nt"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e r="LR">
-       <p>
-          <l>łobyś</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="cni"/><s n="p2"/><s n="nt"/><s n="sg"/></r>
-       </p>
-      </e>
-    </pardef>
-    <pardef n="c_perf_cni_pl_m__v">
-      <e>
-        <p>
-          <l>libyśmy</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="cni"/><s n="p1"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e>
-     <!-- Have to do some searching for this...
-      <e r="LR">
-        <p>
-          <l>libymy</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="cni"/><s n="p1"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e> -->
-      <e>
-        <p>
-          <l>libyście</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="cni"/><s n="p2"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e>
-     <!-- Have to do some searching for this...
-      <e r="LR">
-        <p>
-          <l>libycie</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="cni"/><s n="p2"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e> -->
-      <e>
-        <p>
-          <l>liby</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="cni"/><s n="p3"/><s n="m"/><s n="pl"/></r>
-        </p>
-      </e>
-    </pardef>
-    <pardef n="c_perf_cni_pl_nm__v">
-    <!-- plurals -->
-      <e>
-        <p>
-          <l>łybyśmy</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="cni"/><s n="p1"/><s n="nm"/><s n="pl"/></r>
-        </p>
-      </e>
-     <!--
-      <e r="LR">
-        <p>
-          <l>łybymy</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="cni"/><s n="p1"/><s n="nm"/><s n="pl"/></r>
-        </p>
-      </e> -->
-      <e>
-        <p>
-          <l>łybyście</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="cni"/><s n="p2"/><s n="nm"/><s n="pl"/></r>
-        </p>
-      </e>
-     <!--
-      <e r="LR">
-        <p>
-          <l>łybycie</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="cni"/><s n="p2"/><s n="nm"/><s n="pl"/></r>
-        </p>
-      </e> -->
-      <e>
-        <p>
-          <l>łyby</l>
-          <r>c<s n="vblex"/><s n="perf"/><s n="cni"/><s n="p3"/><s n="nm"/><s n="pl"/></r>
-        </p>
-      </e>
-    </pardef>
-
     <!-- Pronouns -->
     <pardef n="prpers__prn">
       <e>
         <p>
           <l>ja</l>
-          <r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></r>
+          <r>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>Ty</l>
-          <r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="nom"/></r>
-        </p>
-      </e>
-      <e r="LR">
-        <p>
           <l>ty</l>
-          <r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="nom"/></r>
+          <r>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="nom"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>on</l>
-          <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/><s n="nom"/></r>
+          <r>prpers<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/><s n="nom"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ona</l>
-          <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/><s n="nom"/></r>
+          <r>prpers<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/><s n="nom"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ono</l>
-          <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="nom"/></r>
+          <r>prpers<s n="prn"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="nom"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>my</l>
-          <r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="nom"/></r>
+          <r>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="nom"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>wy</l>
-          <r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="nom"/></r>
+          <r>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="nom"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>oni</l>
-          <r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="m1"/><s n="pl"/><s n="nom"/></r>
+          <r>prpers<s n="prn"/><s n="p1"/><s n="m1"/><s n="pl"/><s n="nom"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>one</l>
-          <r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="nm"/><s n="pl"/><s n="nom"/></r>
+          <r>prpers<s n="prn"/><s n="p1"/><s n="nm"/><s n="pl"/><s n="nom"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>mię</l>
-          <r>prpers<s n="prn"/><s n="obj"/><s n="uns"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="acc"/></r>
+          <r>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="acc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>mnie</l>
-          <r>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="acc"/></r>
+          <r>prpers<s n="prn"/><s n="emph"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="acc"/></r>
         </p>
       </e>
       <e>
-        <p>
-          <l>Cię</l>
-          <r>prpers<s n="prn"/><s n="obj"/><s n="uns"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="acc"/></r>
-        </p>
-      </e>
-      <e r="LR">
         <p>
           <l>cię</l>
-          <r>prpers<s n="prn"/><s n="obj"/><s n="uns"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="acc"/></r>
+          <r>prpers<s n="prn"/><s n="uns"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="acc"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>Ciebie</l>
-          <r>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="acc"/></r>
-        </p>
-      </e>
-      <e r="LR">
-        <p>
           <l>ciebie</l>
-          <r>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="acc"/></r>
+          <r>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="acc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>go</l>
-          <r>prpers<s n="prn"/><s n="obj"/><s n="uns"/><s n="p3"/><s n="m"/><s n="sg"/><s n="acc"/></r>
+          <r>prpers<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/><s n="acc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>jego</l>
-          <r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/><s n="acc"/></r>
+          <r>prpers<s n="prn"/><s n="emph"/><s n="p3"/><s n="m"/><s n="sg"/><s n="acc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ją</l>
-          <r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/><s n="acc"/></r>
+          <r>prpers<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/><s n="acc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>je</l>
-          <r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="acc"/></r>
+          <r>prpers<s n="prn"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="acc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>nas</l>
-          <r>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="acc"/></r>
+          <r>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/><s n="acc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>was</l>
-          <r>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="acc"/></r>
+          <r>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/><s n="acc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ich</l>
-          <r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="m1"/><s n="pl"/><s n="acc"/></r>
+          <r>prpers<s n="prn"/><s n="p3"/><s n="m1"/><s n="pl"/><s n="acc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>je</l>
-          <r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="nm"/><s n="pl"/><s n="acc"/></r>
+          <r>prpers<s n="prn"/><s n="p3"/><s n="nm"/><s n="pl"/><s n="acc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>mi</l>
-          <r>prpers<s n="prn"/><s n="uns"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="dat"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>mnie</l>
           <r>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="dat"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>Ci</l>
-          <r>prpers<s n="prn"/><s n="uns"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="dat"/></r>
-        </p>
-      </e>
-      <e r="LR">
-        <p>
-          <l>ci</l>
-          <r>prpers<s n="prn"/><s n="uns"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="dat"/></r>
+          <l>mnie</l>
+          <r>prpers<s n="prn"/><s n="emph"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="dat"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>Tobie</l>
+          <l>ci</l>
           <r>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="dat"/></r>
         </p>
       </e>
-      <e r="LR">
+      <e>
         <p>
           <l>tobie</l>
           <r>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="dat"/></r>
@@ -4104,7 +3401,7 @@
       <e>
         <p>
           <l>mu</l>
-          <r>prpers<s n="prn"/><s n="uns"/><s n="p3"/><s n="m"/><s n="sg"/><s n="dat"/></r>
+          <r>prpers<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/><s n="dat"/></r>
         </p>
       </e>
       <e>
@@ -4116,13 +3413,13 @@
       <e>
         <p>
           <l>jej</l>
-          <r>prpers<s n="prn"/><s n="uns"/><s n="p3"/><s n="f"/><s n="sg"/><s n="dat"/></r>
+          <r>prpers<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/><s n="dat"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>mu</l>
-          <r>prpers<s n="prn"/><s n="uns"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="dat"/></r>
+          <r>prpers<s n="prn"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="dat"/></r>
         </p>
       </e>
       <e>
@@ -4138,12 +3435,6 @@
         </p>
       </e>
       <e>
-        <p>
-          <l>Ty</l>
-          <r>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="voc"/></r>
-        </p>
-      </e>
-      <e r="LR">
         <p>
           <l>ty</l>
           <r>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="voc"/></r>
@@ -4184,13 +3475,13 @@
       <e>
         <p>
           <l>się</l>
-          <r>refprn<s n="prn"/><s n="ref"/><s n="uns"/><s n="acc"/></r>
+          <r>refprn<s n="prn"/><s n="ref"/><s n="acc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>siebie</l>
-          <r>refprn<s n="prn"/><s n="ref"/><s n="acc"/></r>
+          <r>refprn<s n="prn"/><s n="ref"/><s n="emph"/><s n="acc"/></r>
         </p>
       </e>
       <e>
