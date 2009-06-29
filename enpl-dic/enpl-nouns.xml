@@ -107,7 +107,7 @@
     <e><p><l>Renaissance<s n="n"/></l><r>renesans<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>Roman<s n="n"/></l><r>Rzymian<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>Romanian<s n="n"/></l><r>Rumun<s n="n"/><s n="mp"/></r></p></e>
-    <e><p><l>Russian<s n="n"/></l><r>Rosjan<s n="n"/><s n="mp"/></r></p></e>
+    <e r="RL"><p><l>Russian<s n="n"/></l><r>Rosjan<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>Russian<s n="n"/></l><r>Rosjanin<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>Russification<s n="n"/></l><r>rusyfikacja<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>Sanscrit<s n="n"/></l><r>sanskryt<s n="n"/><s n="mi"/></r></p></e>
@@ -183,8 +183,8 @@
     <e><p><l>altruism<s n="n"/></l><r>altruizm<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>altruist<s n="n"/></l><r>altruista<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>alum<s n="n"/></l><r>ałun<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>aluminum<s n="n"/></l><r>aluminium<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>aluminum<s n="n"/></l><r>glin<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>aluminium<s n="n"/></l><r>aluminium<s n="n"/><s n="nt"/></r></p></e>
+    <e r="RL"><p><l>aluminium<s n="n"/></l><r>glin<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>amateur<s n="n"/></l><r>amator<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>amateur<s n="n"/></l><r>amatorka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>amateurism<s n="n"/></l><r>amatorstwo<s n="n"/><s n="nt"/></r></p></e>
@@ -192,7 +192,7 @@
     <e><p><l>ambassador<s n="n"/></l><r>ambasador<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>amber<s n="n"/></l><r>bursztyn<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>amber<s n="n"/></l><r>jantar<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>ambiguity<s n="n"/></l><r>dwuznaczność<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>ambiguity<s n="n"/></l><r>dwuznaczność<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ambiguity<s n="n"/></l><r>wieloznaczność<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ambition<s n="n"/></l><r>ambicja<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ambulance<s n="n"/></l><r>ambulans<s n="n"/><s n="mi"/></r></p></e>
@@ -291,7 +291,6 @@
     <e><p><l>apostate<s n="n"/></l><r>apostata<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>apostle<s n="n"/></l><r>apostoł<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>apostrophe<s n="n"/></l><r>apostrof<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>apostrophe<s n="n"/></l><r>apostrofa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>apotheosis<s n="n"/></l><r>apoteoza<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>apparatus<s n="n"/></l><r>aparat<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>apparatus<s n="n"/></l><r>aparatura<s n="n"/><s n="f"/></r></p></e>
@@ -348,18 +347,18 @@
     <e><p><l>armament<s n="n"/></l><r>zbrojenie<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>armchair<s n="n"/></l><r>fotel<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>armistice<s n="n"/></l><r>rozejm<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>armor<s n="n"/></l><r>pancerz<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>armor<s n="n"/></l><r>zbroja<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>armorer<s n="n"/></l><r>płatnerz<s n="n"/><s n="mp"/></r></p></e>
-    <e><p><l>armory<s n="n"/></l><r>zbrojownia<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>army<s n="n"/></l><r>armia<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>armour<s n="n"/></l><r>pancerz<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>armour<s n="n"/></l><r>zbroja<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>armourer<s n="n"/></l><r>płatnerz<s n="n"/><s n="mp"/></r></p></e>
+    <e><p><l>armoury<s n="n"/></l><r>zbrojownia<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>army<s n="n"/></l><r>armia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>army<s n="n"/></l><r>wojsko<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>aroma<s n="n"/></l><r>aromat<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>arranger<s n="n"/></l><r>aranżer<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>arrears<s n="n"/></l><r>zaległość<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>arrest<s n="n"/></l><r>aresztowanie<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>arrestee<s n="n"/></l><r>aresztant<s n="n"/><s n="mp"/></r></p></e>
-    <e><p><l>arrestee<s n="n"/></l><r>aresztowany<s n="n"/><s n="mp"/></r></p></e>
+    <e><p><l>arrested<s n="n"/></l><r>aresztowany<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>arrival<s n="n"/></l><r>przybycie<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>arrogance<s n="n"/></l><r>arogancja<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>arrow<s n="n"/></l><r>strzała<s n="n"/><s n="f"/></r></p></e>
@@ -385,7 +384,7 @@
     <e><p><l>asparagus<s n="n"/></l><r>szparag<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>aspen<s n="n"/></l><r>osika<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>aspiration<s n="n"/></l><r>aspiracja<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>aspiration<s n="n"/></l><r>przydech<s n="n"/><s n="mi"/></r></p></e>
+    <e r="RL"><p><l>aspiration<s n="n"/></l><r>przydech<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>aspirin<s n="n"/></l><r>aspiryna<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>assailant<s n="n"/></l><r>napastnik<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>assasin<s n="n"/></l><r>skrytobójca<s n="n"/><s n="mp"/></r></p></e>
@@ -414,7 +413,7 @@
     <e><p><l>atmosphere<s n="n"/></l><r>atmosfera<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>atol<s n="n"/></l><r>atol<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>atom<s n="n"/></l><r>atom<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>atomizer<s n="n"/></l><r>rozpylacz<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>atomiser<s n="n"/></l><r>rozpylacz<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>atrophy<s n="n"/></l><r>atrofia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>atrophy<s n="n"/></l><r>uwiąd<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>attachment<s n="n"/></l><r>przywiązanie<s n="n"/><s n="nt"/></r></p></e>
@@ -453,7 +452,7 @@
     <e><p><l>autobiography<s n="n"/></l><r>autobiografia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>autocracy<s n="n"/></l><r>autokracja<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>autocrat<s n="n"/></l><r>autokrata<s n="n"/><s n="mp"/></r></p></e>
-    <e><p><l>autocrat<s n="n"/></l><r>samowładca<s n="n"/><s n="mp"/></r></p></e>
+    <e r="RL"><p><l>autocrat<s n="n"/></l><r>samowładca<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>autograph<s n="n"/></l><r>autograf<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>automated<b/>technology<s n="n"/></l><r>automatyka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>automation<s n="n"/></l><r>automacja<s n="n"/><s n="f"/></r></p></e>
@@ -4287,11 +4286,11 @@
     <e><p><l>persecution<s n="n"/></l><r>prześladowanie<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>persecutor<s n="n"/></l><r>prześladowca<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>persistence<s n="n"/></l><r>natarczywość<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>person<s n="n"/></l><r>dalekowidz<s n="n"/><s n="mp"/></r></p></e>
+<!--    <e><p><l>person<s n="n"/></l><r>dalekowidz<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>person<s n="n"/></l><r>daltonista<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>person<s n="n"/></l><r>krótkowidz<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>person<s n="n"/></l><r>pyskacz<s n="n"/><s n="mp"/></r></p></e>
-    <e><p><l>person<s n="n"/></l><r>szatyn<s n="n"/><s n="mp"/></r></p></e>
+    <e><p><l>person<s n="n"/></l><r>szatyn<s n="n"/><s n="mp"/></r></p></e> -->
     <e><p><l>persona<s n="n"/></l><r>persona<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>personalisation<s n="n"/></l><r>personalizacja<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>personality<s n="n"/></l><r>osobowość<s n="n"/><s n="f"/></r></p></e>
@@ -6083,7 +6082,7 @@
     <e><p><l>vegetation<s n="n"/></l><r>wegetacja<s n="n"/><s n="f"/></r></p></e>
     <e r="RL"><p><l>vegetation<s n="n"/></l><r>roślinność<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vehicle<s n="n"/></l><r>pojazd<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>vehicle<s n="n"/></l><r>vehikuł<s n="n"/><s n="mi"/></r></p></e>
+    <e r="RL"><p><l>vehicle<s n="n"/></l><r>vehikuł<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>veil<s n="n"/></l><r>kwef<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>veil<s n="n"/></l><r>welon<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>veil<s n="n"/></l><r>woal<s n="n"/><s n="mi"/></r></p></e>
@@ -6162,7 +6161,7 @@
     <e><p><l>waiter<s n="n"/></l><r>kelner<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>waitress<s n="n"/></l><r>kelnerka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>wall<b/>hanging<s n="n"/></l><r>kilim<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>wall<s n="n"/></l><r>mur<s n="n"/><s n="mi"/></r></p></e>
+    <e r="RL"><p><l>wall<s n="n"/></l><r>mur<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>wall<s n="n"/></l><r>ściana<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>walnut<s n="n"/></l><r>orzech<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>walrus<s n="n"/></l><r>mors<s n="n"/><s n="ma"/></r></p></e>
@@ -6184,7 +6183,6 @@
     <e><p><l>watchman<s n="n"/></l><r>stróż<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>watchtower<s n="n"/></l><r>strażnica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>water-lily<s n="n"/></l><r>grzybień<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>water<b/>colour<s n="n"/></l><r>akwarela<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>watercolour<s n="n"/></l><r>akwarela<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>waterfall<s n="n"/></l><r>wodospad<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>watermelon<s n="n"/></l><r>arbuz<s n="n"/><s n="ma"/></r></p></e>
@@ -6219,7 +6217,8 @@
     <e><p><l>wheel-rut<s n="n"/></l><r>koleina<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>wheel<s n="n"/></l><r>koło<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>wheeler-dealer<s n="n"/></l><r>kombinator<s n="n"/><s n="mp"/></r></p></e>
-    <e><p><l>wheelwright<s n="n"/></l><r>kołodziej<s n="n"/><s n="mp"/></r></p></e>
+    <e r="LR"><p><l>wheelwright<s n="n"/></l><r>kołodziej<s n="n"/><s n="mp"/></r></p></e>
+    <e><p><l>wheelmaker<s n="n"/></l><r>kołodziej<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>while<s n="n"/></l><r>chwila<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>whip<s n="n"/></l><r>batog<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>whir<s n="n"/></l><r>furkot<s n="n"/><s n="mi"/></r></p></e>
@@ -6269,8 +6268,8 @@
     <e><p><l>wrestling<s n="n"/></l><r>zapaśnictwo<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>wretch<s n="n"/></l><r>nieszczęśnik<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>wrist<s n="n"/></l><r>przegub<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>writer<s n="n"/></l><r>pisarka<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>writer<s n="n"/></l><r>pisarz<s n="n"/><s n="mp"/></r></p></e>
+    <e r="LR"><p><l>writer<s n="n"/></l><r>pisarz<s n="n"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>writer<s n="n"/></l><r>pisarz<s n="n"/></r></p></e>
     <e><p><l>writing<s n="n"/></l><r>pisarstwo<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>xenophobia<s n="n"/></l><r>ksenofobia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>xerography<s n="n"/></l><r>kserografia<s n="n"/><s n="f"/></r></p></e>
