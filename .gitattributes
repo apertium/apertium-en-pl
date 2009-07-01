@@ -13,6 +13,7 @@
 /apertium-en-pl.en-pl.t2x -text
 /apertium-en-pl.en-pl.t3x -text
 /apertium-en-pl.en.dix.xml -text
+/apertium-en-pl.en.metadix -text
 /apertium-en-pl.pl-en.t1x -text
 /apertium-en-pl.pl-en.t2x -text
 /apertium-en-pl.pl-en.t3x -text
