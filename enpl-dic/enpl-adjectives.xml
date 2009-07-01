@@ -628,6 +628,7 @@
     <e><p><l>consumable<s n="adj"/></l><r>spożywczy<s n="adj"/></r></p></e>
     <e><p><l>consumptive<s n="adj"/></l><r>suchotniczy<s n="adj"/></r></p></e>
     <e><p><l>contemporary<s n="adj"/></l><r>współczesny<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>contemporary<s n="adj"/></l><r>ówczesny<s n="adj"/></r></p></e>
     <e><p><l>contemptuous<s n="adj"/></l><r>pogardliwy<s n="adj"/></r></p></e>
     <e><p><l>contemptuous<s n="adj"/></l><r>wzgardliwy<s n="adj"/></r></p></e>
     <e><p><l>continental<s n="adj"/></l><r>kontynentalny<s n="adj"/></r></p></e>
@@ -681,7 +682,7 @@
     <e><p><l>cross<s n="adj"/></l><r>krzyżowy<s n="adj"/></r></p></e>
     <e><p><l>crowded<s n="adj"/></l><r>natłoczony<s n="adj"/></r></p></e>
     <e><p><l>cruel<s n="adj"/></l><r>okrutny<s n="adj"/></r></p></e>
-    <e><p><l>cruel<s n="adj"/></l><r>srogi<s n="adj"/></r></p></e>
+    <e r="RL"><p><l>cruel<s n="adj"/></l><r>srogi<s n="adj"/></r></p></e>
     <e><p><l>crystalline<s n="adj"/></l><r>krystaliczny<s n="adj"/></r></p></e>
     <e><p><l>cubic<s n="adj"/></l><r>sześcienny<s n="adj"/></r></p></e>
     <e><p><l>culinary<s n="adj"/></l><r>kulinarny<s n="adj"/></r></p></e>

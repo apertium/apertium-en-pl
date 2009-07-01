@@ -112,7 +112,7 @@
     <e><p><l>our</l><r>nasz</r></p></e>
     <!-- Proper names -->
 
-    <e><p><l>Poland<s n="np"/></l><r>Polska<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>Poland<s n="np"/><s n="top"/></l><r>Polska<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 
     <!-- punctuation etc. -->
     <e>

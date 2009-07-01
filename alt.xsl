@@ -17,7 +17,10 @@
  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA
  02111-1307, USA.
 -->
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="1.0" 
+ xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+ xmlns:str="http://exslt.org/strings"
+ extension-element-prefixes="str">
 <xsl:output method="text" encoding="UTF-8"/>
 <xsl:param name="alt"/>
 
@@ -36,7 +39,7 @@
           <xsl:value-of select="string(' ')"/>
           <xsl:value-of select="local-name(.)"/>
           <xsl:value-of select="string('=&quot;')"/>
-          <xsl:value-of select="string(.)"/>
+          <xsl:value-of select="str:replace (., '&amp;', '&amp;amp;')"/>
           <xsl:value-of select="string('&quot;')"/>
         </xsl:if>
       </xsl:for-each>
@@ -63,7 +66,7 @@
 </xsl:template>
 
 <xsl:template match="text()">
-  <xsl:value-of select="."/>
+  <xsl:value-of select="str:replace (., '&amp;', '&amp;amp;')"/>
 </xsl:template>
 
 </xsl:stylesheet>
