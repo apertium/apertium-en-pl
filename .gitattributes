@@ -24,26 +24,6 @@
 /autogen.sh -text
 /configure.ac -text
 /en-ca_rule-list.txt -text
-en-dic/apertium-en-es.en.acronyms.xml -text
-en-dic/apertium-en-es.en.adjectives.xml -text
-en-dic/apertium-en-es.en.adverbs.xml -text
-en-dic/apertium-en-es.en.colloquial.xml -text
-en-dic/apertium-en-es.en.conjunctions.xml -text
-en-dic/apertium-en-es.en.determiners.xml -text
-en-dic/apertium-en-es.en.interjections.xml -text
-en-dic/apertium-en-es.en.metadix.xml -text
-en-dic/apertium-en-es.en.nouns.xml -text
-en-dic/apertium-en-es.en.numerals.xml -text
-en-dic/apertium-en-es.en.pardefs.xml -text
-en-dic/apertium-en-es.en.prepositions.xml -text
-en-dic/apertium-en-es.en.pronouns.xml -text
-en-dic/apertium-en-es.en.proper-nouns-ant.xml -text
-en-dic/apertium-en-es.en.proper-nouns.xml -text
-en-dic/apertium-en-es.en.punctuation.xml -text
-en-dic/apertium-en-es.en.verbs.xml -text
-en-dic/apertium-en-pl-en.orth-dialectal.pardefs.xml -text
-en-dic/apertium-en-pl-en.verbs-ise-ize.xml -text
-en-dic/apertium-en-pl.symbols.xml -text
 /en-pl.prob -text svneol=unset#unset
 /endix-latin-french.xml -text
 enpl-dic/apertium-en-pl.en-pl.dix.xml -text
