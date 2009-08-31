@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section id="nouns" type="standard">
     <e><p><l>high<b/>school<s n="n"/></l><r>liceum<s n="n"/><s n="nt"/></r></p></e>
-    <e r="RL"><p><l>general<b/>high<b/>school</l><r>liceum<b/>ogólnokształcące<s n="n"/><s n="nt"/></r></p></e>
-    <e r="RL"><p><l>specialised<b/>high<b/>school</l><r>liceum<b/>profilowane<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>general<b/>high<b/>school</l><r>liceum<b/>ogólnokształcące<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>specialised<b/>high<b/>school</l><r>liceum<b/>profilowane<s n="n"/><s n="nt"/></r></p></e>
         
     <e r="LR"><p><l>almanac<s n="n"/></l><r>kalendarz<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>Advokaat<s n="n"/></l><r>adwokat<s n="n"/><s n="mi"/></r></p></e>
@@ -3598,7 +3598,6 @@
     <e r="RL"><p><l>matriculation<s n="n"/></l><r>immatrykulacja<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>matriculation<s n="n"/></l><r>matrykulacja<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>matrix<s n="n"/></l><r>macierz<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>matrix<s n="n"/></l><r>macierz<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>matrix<s n="n"/></l><r>matryca<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>matron<s n="n"/></l><r>matrona<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>mattress<s n="n"/></l><r>materac<s n="n"/><s n="mi"/></r></p></e>
@@ -3728,7 +3727,7 @@
     <e><p><l>misfortune<s n="n"/></l><r>nieszczęście<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>missal<s n="n"/></l><r>mszał<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>mission<s n="n"/></l><r>misja<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>mission<s n="n"/></l><r>posłannictwo<s n="n"/><s n="nt"/></r></p></e>
+    <e r="RL"><p><l>mission<s n="n"/></l><r>posłannictwo<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>missionary<s n="n"/></l><r>misjonarz<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>mistletoe<s n="n"/></l><r>jemioła<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>misunderstanding<s n="n"/></l><r>nieporozumienie<s n="n"/><s n="nt"/></r></p></e>
@@ -3741,7 +3740,8 @@
     <e><p><l>mockery<s n="n"/></l><r>drwina<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>mocrobiology<s n="n"/></l><r>mikrobiologia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>model-making<s n="n"/></l><r>modelarstwo<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>model<s n="n"/></l><r>model<s n="n"/><s n="mi"/></r></p></e>
+    <e r="LR"><p><l>model<s n="n"/></l><r>model<s n="n"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>model<s n="n"/></l><r>model<s n="n"/></r></p></e>
     <e><p><l>modeler<s n="n"/></l><r>modelarz<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>modem<s n="n"/></l><r>modem<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>modernisation<s n="n"/></l><r>modernizacja<s n="n"/><s n="f"/></r></p></e>
@@ -3765,7 +3765,7 @@
     <e><p><l>money<b/>grubber<s n="n"/></l><r>ciułacz<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>monk<s n="n"/></l><r>mnich<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>monk<s n="n"/></l><r>zakonnik<s n="n"/><s n="mp"/></r></p></e>
-    <e><p><l>monogamy<s n="n"/></l><r>jednożeństwo<s n="n"/><s n="nt"/></r></p></e>
+    <e r="RL"><p><l>monogamy<s n="n"/></l><r>jednożeństwo<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>monogamy<s n="n"/></l><r>monogamia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>monograph<s n="n"/></l><r>monografia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>monologue<s n="n"/></l><r>monolog<s n="n"/><s n="mi"/></r></p></e>
@@ -3903,8 +3903,8 @@
     <e><p><l>negligence<s n="n"/></l><r>niedbalstwo<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>negotiation<s n="n"/></l><r>negocjacja<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>negotiation<s n="n"/></l><r>pertraktacja<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>neighbour<s n="n"/></l><r>sąsiad<s n="n"/><s n="mp"/></r></p></e>
-    <e><p><l>neighbour<s n="n"/></l><r>sąsiadka<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>neighbour<s n="n"/></l><r>sąsiad<s n="n"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>neighbour<s n="n"/></l><r>sąsiad<s n="n"/></r></p></e>
     <e><p><l>neighbourhood<s n="n"/></l><r>sąsiedztwo<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>neologism<s n="n"/></l><r>neologizm<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>nepotism<s n="n"/></l><r>kumoterstwo<s n="n"/><s n="nt"/></r></p></e>
@@ -3928,7 +3928,7 @@
     <e><p><l>night<s n="n"/></l><r>noc<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>nightingale<s n="n"/></l><r>słowik<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>nightmare<s n="n"/></l><r>koszmar<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>nightmare<s n="n"/></l><r>zmora<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>nightmare<s n="n"/></l><r>zmora<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>nihilism<s n="n"/></l><r>nihilizm<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>nitrogen<s n="n"/></l><r>azot<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>nitroglycerine<s n="n"/></l><r>nitrogliceryna<s n="n"/><s n="f"/></r></p></e>
@@ -3958,8 +3958,8 @@
     <e><p><l>noun<s n="n"/></l><r>rzeczownik<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>nourishment<s n="n"/></l><r>pokarm<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>novel<s n="n"/></l><r>powieść<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>novelist<s n="n"/></l><r>powieściopisarka<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>novelist<s n="n"/></l><r>powieściopisarz<s n="n"/><s n="mp"/></r></p></e>
+    <e r="LR"><p><l>novelist<s n="n"/></l><r>powieściopisarz<s n="n"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>novelist<s n="n"/></l><r>powieściopisarz<s n="n"/></r></p></e>
     <e><p><l>novelty<s n="n"/></l><r>nowość<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>november<s n="n"/></l><r>listopad<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>novitiate<s n="n"/></l><r>nowicjusz<s n="n"/><s n="mp"/></r></p></e>
@@ -4022,13 +4022,14 @@
     <e><p><l>offspring<s n="n"/></l><r>potomstwo<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>ohm<s n="n"/></l><r>om<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>oil<s n="n"/></l><r>olej<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>oil<s n="n"/></l><r>tran<s n="n"/><s n="mi"/></r></p></e>
+    <e r="RL"><p><l>oil<s n="n"/></l><r>tran<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>oilcloth<s n="n"/></l><r>cerata<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ointment<s n="n"/></l><r>maść<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>old<b/>woman<s n="n"/></l><r>baba<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>oligarchy<s n="n"/></l><r>oligarchia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>olympiad<s n="n"/></l><r>olimpiada<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>olympian<s n="n"/></l><r>olimpijczyk<s n="n"/><s n="mp"/></r></p></e>
+    <e r="LR"><p><l>olympian<s n="n"/></l><r>olimpijczyk<s n="n"/><s n="ND"/></r></p></e>
+    <e r="RL"><p><l>olympian<s n="n"/></l><r>olimpijczyk<s n="n"/></r></p></e>
     <e><p><l>omelet<s n="n"/></l><r>omlet<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>omen<s n="n"/></l><r>omen<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>omission<s n="n"/></l><r>opuszczenie<s n="n"/><s n="nt"/></r></p></e>
@@ -4141,7 +4142,7 @@
     <e><p><l>palette<s n="n"/></l><r>paleta<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>palisade<s n="n"/></l><r>palisada<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pamphlet<s n="n"/></l><r>pamflet<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>pamphleteer<s n="n"/></l><r>autor<s n="n"/><s n="mp"/></r></p></e>
+    <e r="LR"><p><l>pamphleteer<s n="n"/></l><r>autor<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>pan<s n="n"/></l><r>patelnia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pancreas<s n="n"/></l><r>trzustka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>panegyric<s n="n"/></l><r>panegiryk<s n="n"/><s n="mi"/></r></p></e>
@@ -4211,7 +4212,8 @@
     <e><p><l>pathologicalisation<s n="n"/></l><r>patologizacja<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pathos<s n="n"/></l><r>patos<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>patience<s n="n"/></l><r>cierpliwość<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>patient<s n="n"/></l><r>pacjent<s n="n"/><s n="mp"/></r></p></e>
+    <e r="LR"><p><l>patient<s n="n"/></l><r>pacjent<s n="n"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>patient<s n="n"/></l><r>pacjent<s n="n"/></r></p></e>
     <e><p><l>patina<s n="n"/></l><r>patyna<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>patriot<s n="n"/></l><r>patriota<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>patriotism<s n="n"/></l><r>patriotyzm<s n="n"/><s n="mi"/></r></p></e>
@@ -4258,7 +4260,7 @@
     <e><p><l>pension<s n="n"/></l><r>emerytura<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pension<s n="n"/></l><r>renta<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pensioner<s n="n"/></l><r>rencista<s n="n"/><s n="mp"/></r></p></e>
-    <e><p><l>pentagon<s n="n"/></l><r>pięciobok<s n="n"/><s n="mi"/></r></p></e>
+    <e r="RL"><p><l>pentagon<s n="n"/></l><r>pięciobok<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>pentagon<s n="n"/></l><r>pięciokąt<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>pentathlon<s n="n"/></l><r>pięciobój<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>modern<b/>pentathlon<s n="n"/></l><r>pięciobój<b/>nowoczesny<s n="n"/><s n="mi"/></r></p></e>
@@ -4280,15 +4282,15 @@
     <e><p><l>perjurer<s n="n"/></l><r>krzywoprzysięzca<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>perjury<s n="n"/></l><r>krzywoprzysięstwo<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>permission<s n="n"/></l><r>pozwolenie<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>permission<s n="n"/></l><r>zezwolenie<s n="n"/><s n="nt"/></r></p></e>
+    <e r="RL"><p><l>permission<s n="n"/></l><r>zezwolenie<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>permutation<s n="n"/></l><r>permutacja<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>peroration<s n="n"/></l><r>perora<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>persecution<s n="n"/></l><r>prześladowanie<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>persecutor<s n="n"/></l><r>prześladowca<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>persistence<s n="n"/></l><r>natarczywość<s n="n"/><s n="f"/></r></p></e>
-<!--    <e><p><l>person<s n="n"/></l><r>dalekowidz<s n="n"/><s n="mp"/></r></p></e>
-    <e><p><l>person<s n="n"/></l><r>daltonista<s n="n"/><s n="mp"/></r></p></e>
-    <e><p><l>person<s n="n"/></l><r>krótkowidz<s n="n"/><s n="mp"/></r></p></e>
+    <e><p><l>long-sighted<s n="n"/></l><r>dalekowidz<s n="n"/><s n="mp"/></r></p></e>
+    <e><p><l>short-sighted<s n="n"/></l><r>krótkowidz<s n="n"/><s n="mp"/></r></p></e>
+ <!--   <e><p><l>person<s n="n"/></l><r>daltonista<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>person<s n="n"/></l><r>pyskacz<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>person<s n="n"/></l><r>szatyn<s n="n"/><s n="mp"/></r></p></e> -->
     <e><p><l>persona<s n="n"/></l><r>persona<s n="n"/><s n="f"/></r></p></e>
@@ -4374,7 +4376,7 @@
     <e><p><l>pillory<s n="n"/></l><r>pręgierz<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>pillow-case<s n="n"/></l><r>poszwa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pimp<s n="n"/></l><r>alfons<s n="n"/><s n="mp"/></r></p></e>
-    <e><p><l>pimp<s n="n"/></l><r>sutener<s n="n"/><s n="mp"/></r></p></e>
+    <e r="RL"><p><l>pimp<s n="n"/></l><r>sutener<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>pimple<s n="n"/></l><r>pryszcz<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>pin<s n="n"/></l><r>szpilka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pineapple<s n="n"/></l><r>ananas<s n="n"/><s n="mi"/></r></p></e>
