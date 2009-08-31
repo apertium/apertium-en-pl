@@ -34,7 +34,7 @@
 <e><p><l>moreover<s n="adv"/></l><r>ponadto<s n="adv"/></r></p></e>
 <e><p><l>morphosyntactically<s n="adv"/></l><r>morfosyntaktycznie<s n="adv"/></r></p></e>
 <e><p><l>namely<s n="adv"/></l><r>mianowicie<s n="adv"/></r></p></e>
-<e><p><l>necessarily.<s n="adv"/></l><r>koniecznie<s n="adv"/></r></p></e>
+<e><p><l>necessarily<s n="adv"/></l><r>koniecznie<s n="adv"/></r></p></e>
 <e><p><l>now<s n="adv"/></l><r>teraz<s n="adv"/></r></p></e>
 <e><p><l>nowhere<s n="adv"/></l><r>nigdzie<s n="adv"/></r></p></e>
 <e><p><l>often<s n="adv"/></l><r>często<s n="adv"/></r></p></e>
@@ -44,8 +44,9 @@
 <e><p><l>colloquially<s n="adv"/></l><r>potocznie<s n="adv"/></r></p></e>
 <e><p><l>promptly<s n="adv"/></l><r>niezwłocznie<s n="adv"/></r></p></e>
 <e><p><l>realistic<s n="adv"/></l><r>realistyczny<s n="adv"/></r></p></e>
-<e><p><l>sometimes<s n="adv"/></l><r>niekiedy<s n="adv"/></r></p></e>
-<e><p><l>sometimes<s n="adv"/></l><r>nieraz<s n="adv"/></r></p></e>
+<e><p><l>sometimes<s n="adv"/></l><r>czasami<s n="adv"/></r></p></e>
+<e r="RL"><p><l>sometimes<s n="adv"/></l><r>niekiedy<s n="adv"/></r></p></e>
+<e r="RL"><p><l>sometimes<s n="adv"/></l><r>nieraz<s n="adv"/></r></p></e>
 <e><p><l>soon<s n="adv"/></l><r>niebawem<s n="adv"/></r></p></e>
 <e><p><l>suddenly<s n="adv"/></l><r>nagle<s n="adv"/></r></p></e>
 <e r="RL"><p><l>suddenly<s n="adv"/></l><r>wtem<s n="adv"/></r></p></e>
@@ -59,7 +60,7 @@
 <e><p><l>understandingly<s n="adv"/></l><r>porozumiewawczo<s n="adv"/></r></p></e>
 <e><p><l>unfortunately<s n="adv"/></l><r>niestety<s n="adv"/></r></p></e>
 <e><p><l>unintentionally<s n="adv"/></l><r>nienaumyślnie<s n="adv"/></r></p></e>
-<e><p><l>very<s n="adv"/></l><r>bardzo<s n="adv"/></r></p></e>
-<e><p><l>when<s n="adv"/></l><r>kiedy<s n="adv"/></r></p></e>
+<e><p><l>very<s n="preadv"/></l><r>bardzo<s n="preadv"/></r></p></e>
+<e><p><l>when<s n="adv"/><s n="itg"/></l><r>kiedy<s n="adv"/><s n="itg"/></r></p></e>
 <e><p><l>yesterday<s n="adv"/></l><r>wczoraj<s n="adv"/></r></p></e>
 </section>
