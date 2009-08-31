@@ -1,7 +1,6 @@
 * text=auto !eol
 /AUTHORS -text
 /COPYING -text
-/ChangeLog -text
 /English_to_Polish.txt -text
 /Makefile.am -text
 /NEWS -text
@@ -45,10 +44,7 @@ enpl-dic/enpl-names.xml -text
 enpl-dic/enpl-nouns.xml -text
 enpl-dic/enpl-numbers.xml -text
 enpl-dic/enpl-organisations.xml -text
-enpl-dic/enpl-places.xml -text
 enpl-dic/enpl-proverbs.xml -text
-enpl-dic/enpl-seas.xml -text
-enpl-dic/enpl-slovakian-exonyms.xml -text
 enpl-dic/enpl-surnames.xml -text
 enpl-dic/enpl-top-adj.xml -text
 enpl-dic/enpl-verbs.xml -text
@@ -176,6 +172,5 @@ pldic/url-pardefs.xml -text
 /pldix-mw_noun.xml -text
 /pldix-names.xml -text
 /pldix-othernames.xml -text
-/pldix-phrases.xml -text
 /pldix-places.xml -text
 /pldix-surnames.xml -text
