@@ -8,11 +8,10 @@
 /README -text
 /TODO -text
 /alt.xsl -text
-/apertium-en-pl.en-pl.dix.xml -text
+/apertium-en-pl.en-pl.dix -text
 /apertium-en-pl.en-pl.t1x -text
 /apertium-en-pl.en-pl.t2x -text
 /apertium-en-pl.en-pl.t3x -text
-/apertium-en-pl.en.dix.xml -text
 /apertium-en-pl.en.metadix -text
 /apertium-en-pl.pl-en.t1x -text
 /apertium-en-pl.pl-en.t2x -text
@@ -24,7 +23,6 @@
 /apertium-en-pl.symbols.xml -text
 /autogen.sh -text
 /configure.ac -text
-/en-ca_rule-list.txt -text
 /en-pl.prob -text svneol=unset#unset
 /endix-latin-french.xml -text
 enpl-dic/apertium-en-pl.en-pl.dix.xml -text
