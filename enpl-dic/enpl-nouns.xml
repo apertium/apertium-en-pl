@@ -2195,7 +2195,7 @@
     <e><p><l>experience<s n="n"/></l><r>przeżycie<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>experiment<s n="n"/></l><r>eksperyment<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>expert<s n="n"/></l><r>ekspert<s n="n"/><s n="mp"/></r></p></e>
-    <e><p><l>expert<s n="n"/></l><r>rzeczoznawca<s n="n"/><s n="mp"/></r></p></e>
+    <e r="RL"><p><l>expert<s n="n"/></l><r>rzeczoznawca<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>explanation<s n="n"/></l><r>objaśnienie<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>explanation<s n="n"/></l><r>wyjaśnienie<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>explanation<s n="n"/></l><r>wytłumaczenie<s n="n"/><s n="nt"/></r></p></e>
@@ -2395,8 +2395,8 @@
     <e><p><l>forum<s n="n"/></l><r>forum<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>foul<s n="n"/></l><r>faul<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>foulard<s n="n"/></l><r>fular<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>foundation<s n="n"/></l><r>fundacja<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>foundation<s n="n"/></l><r>fundament<s n="n"/><s n="mi"/></r></p></e>
+    <e slr="fundacja D"><p><l>foundation<s n="n"/></l><r>fundacja<s n="n"/><s n="f"/></r></p></e>
+    <e slr="fundament"><p><l>foundation<s n="n"/></l><r>fundament<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>founder<s n="n"/></l><r>fundator<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>founder<s n="n"/></l><r>założyciel<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>foundry<b/>worker<s n="n"/></l><r>hutnik<s n="n"/><s n="mp"/></r></p></e>
@@ -2422,7 +2422,7 @@
     <e><p><l>frequency<s n="n"/></l><r>częstość<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>fresco<s n="n"/></l><r>fresk<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>freshener<s n="n"/></l><r>odświeżacz<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>friar<s n="n"/></l><r>mnich<s n="n"/><s n="mp"/></r></p></e>
+    <e r="LR"><p><l>friar<s n="n"/></l><r>mnich<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>friction<s n="n"/></l><r>tarcie<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>friday<s n="n"/></l><r>piątek<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>friend<s n="n"/></l><r>przyjaciel<s n="n"/><s n="mp"/></r></p></e>
@@ -2475,7 +2475,7 @@
     <e><p><l>gangrene<s n="n"/></l><r>gangrena<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>gangrene<s n="n"/></l><r>zgorzel<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>gangster<s n="n"/></l><r>gangster<s n="n"/><s n="mp"/></r></p></e>
-    <e><p><l>gaoler<s n="n"/></l><r>dozorca<s n="n"/><s n="mp"/></r></p></e>
+    <e r="LR"><p><l>gaoler<s n="n"/></l><r>dozorca<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>gap<s n="n"/></l><r>luka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>garage<s n="n"/></l><r>garaż<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>garden<s n="n"/></l><r>ogród<s n="n"/><s n="mi"/></r></p></e>
@@ -2505,7 +2505,7 @@
     <e><p><l>generalisation<s n="n"/></l><r>uogólnilenie<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>generation<s n="n"/></l><r>generacja<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>generosity<s n="n"/></l><r>hojność<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>generosity<s n="n"/></l><r>szczodrość<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>generosity<s n="n"/></l><r>szczodrość<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>genetics<s n="n"/></l><r>genetyka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>genius<s n="n"/></l><r>geniusz<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>genocidal<s n="n"/></l><r>ludobójstwo<s n="n"/><s n="nt"/></r></p></e>
@@ -2527,7 +2527,7 @@
     <e><p><l>gew-gaw<s n="n"/></l><r>bibelot<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>gherkin<s n="n"/></l><r>korniszon<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>ghetto<s n="n"/></l><r>getto<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>giant<s n="n"/></l><r>gigant<s n="n"/><s n="ma"/></r></p></e>
+    <e r="RL"><p><l>giant<s n="n"/></l><r>gigant<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>giant<s n="n"/></l><r>olbrzym<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>gibbon<s n="n"/></l><r>gibon<s n="n"/><s n="ma"/></r></p></e>
     <e><p><l>gigabyte<s n="n"/></l><r>gigabajt<s n="n"/><s n="mi"/></r></p></e>
@@ -2579,13 +2579,13 @@
     <e><p><l>goodbye<s n="n"/></l><r>pożegnanie<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>goose<s n="n"/></l><r>gęś<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>gorilla<s n="n"/></l><r>goryl<s n="n"/><s n="ma"/></r></p></e>
-    <e><p><l>gossip<s n="n"/></l><r>plotka<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>gossiper<s n="n"/></l><r>plotkarka<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>gossiper<s n="n"/></l><r>plotkarz<s n="n"/><s n="mp"/></r></p></e>
+    <e r="RL"><p><l>gossip<s n="n"/></l><r>plotka<s n="n"/><s n="f"/></r></p></e>
+    <e r="LR"><p><l>gossiper<s n="n"/></l><r>plotkarz<s n="n"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>gossiper<s n="n"/></l><r>plotkarz<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>goulash<s n="n"/></l><r>gulasz<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>gourd<s n="n"/></l><r>tykwa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>gout<s n="n"/></l><r>podagra<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>government<s n="n"/></l><r>rząd<s n="n"/><s n="mi"/></r></p></e>
+    <e srl="government D"><p><l>government<s n="n"/></l><r>rząd<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>governor<s n="n"/></l><r>gubernator<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>governor<s n="n"/></l><r>rządca<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>grace<s n="n"/></l><r>gracja<s n="n"/><s n="f"/></r></p></e>
@@ -4967,7 +4967,7 @@
     <e><p><l>revenge<s n="n"/></l><r>zemsta<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>reverence<s n="n"/></l><r>szacunek<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>reverie<s n="n"/></l><r>zaduma<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>review<s n="n"/></l><r>lustracja<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>review<s n="n"/></l><r>lustracja<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>review<s n="n"/></l><r>recenzja<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>reviewer<s n="n"/></l><r>recenzent<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>revisionism<s n="n"/></l><r>rewizjonizm<s n="n"/><s n="mi"/></r></p></e>
@@ -4986,6 +4986,7 @@
     <e><p><l>rice<s n="n"/></l><r>ryż<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>rickets<s n="n"/></l><r>krzywica<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>rickshaw<s n="n"/></l><r>ryksza<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>ricin<s n="n"/></l><r>rycyna<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ricochet<s n="n"/></l><r>rykoszet<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>riddle<s n="n"/></l><r>zagadka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ridiculousness<s n="n"/></l><r>śmieszność<s n="n"/><s n="f"/></r></p></e>
@@ -5018,7 +5019,6 @@
     <e><p><l>romantic<s n="n"/></l><r>romantyk<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>romanticism<s n="n"/></l><r>romantyzm<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>roof<s n="n"/></l><r>dach<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>roof<s n="n"/></l><r>dach<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>roofer<s n="n"/></l><r>dekarz<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>rooibos<s n="n"/></l><r>rooibos<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>roommate<s n="n"/></l><r>wspołlokator<s n="n"/><s n="mp"/></r></p></e>
@@ -5033,8 +5033,7 @@
     <e><p><l>roulette<s n="n"/></l><r>ruleta<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>route<s n="n"/></l><r>trasa<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>routine<s n="n"/></l><r>rutyna<s n="n"/><s n="f"/></r></p></e>
-    <!-- Fixme: -->
-<!--    <e><p><l>row<s n="n"/></l><r>rząd<s n="n"/><s n="mi"/></r></p></e> -->
+    <e srl="row"><p><l>row<s n="n"/></l><r>rząd<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>rower<s n="n"/></l><r>wioślarz<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>royalty<s n="n"/></l><r>tantiema<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ruby<s n="n"/></l><r>rubin<s n="n"/><s n="mi"/></r></p></e>
@@ -5043,7 +5042,7 @@
     <e><p><l>rum<s n="n"/></l><r>rum<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>rumble<s n="n"/></l><r>hurkot<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>rumour<s n="n"/></l><r>plotka<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>rumour<s n="n"/></l><r>pogłoska<s n="n"/><s n="f"/></r></p></e>
+    <e r="RL"><p><l>rumour<s n="n"/></l><r>pogłoska<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>runner<s n="n"/></l><r>biegacz<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>rust<s n="n"/></l><r>rdza<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>rustle<s n="n"/></l><r>szelest<s n="n"/><s n="mi"/></r></p></e>
