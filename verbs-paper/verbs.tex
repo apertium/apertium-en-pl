@@ -15,7 +15,7 @@
 
 \usepackage{hyperref}
 %\author{NN\\  X \\ X \\  X \\  {\tt \small   X@X} \And  NN \\  X \\  X \\  X \\    {\tt \small  X@X}}
-\author{Jimmy O'Regan\\  Eolaistriu Technologies \\  Ireland \\  {\tt \small   joregan@gmail.com} }
+\author{Jimmy O'Regan\\  Eolaistriu Technologies \\  Tipperary, Ireland \\  {\tt \small   joregan@gmail.com} }
 
 
 \title{Aspect Selection of Slavic Verbs in an English--Polish Translator Built with the Apertium Platform}
@@ -80,10 +80,10 @@ verbs have a {\it frequentative} version; and, finally, recently\footnote{
 began [to be] accepted in the early 1930s. However, the notion of Aktionsart did not make
 it into textbooks on Slavic grammars until the second half of the twentieth century,
 and it did not make it into Slavic dictionaries until very recently.''}
-\cite[Ch.~2]{mlyn}}
+\citep[Ch.~2]{mlyn}}
 the distinction between aspect and {\it Aktionsarten} has become more common.\\
 
-Polish verbs have been classified by Aktionsarten\cite[Ch.~4]{mlyn} into
+Polish verbs have been classified by Aktionsarten~\citep[Ch.~4]{mlyn} into
 five classes, as in Table~\ref{table:aktionsarten}. 
 
 \begin{table}[htdp]
@@ -127,7 +127,7 @@ cover to cover is the former; to read a few pages, throw it aside, and
 vow never to touch it again is the latter\footnote{Not, I hope, a 
 self-fulfilling prophecy}.
 
-Class 4 are unitisable processes~\cite{aalstein07}: {\it puka\'{c}}
+Class 4 are unitisable processes~\citep{aalstein07}: {\it puka\'{c}}
 ``to knock'' yields the perfectives {\it pukn\k{a}\'{c}} ``to knock once'', 
 {\it popuka\'{c}} ``to knock for a while'', and the ``empty'', regular 
 {\it zapuka\'{c}}.\\
@@ -135,7 +135,7 @@ Class 4 are unitisable processes~\cite{aalstein07}: {\it puka\'{c}}
 Apertium~\cite{corbi05oss} is a shallow-transfer Machine Translation platform,
 originally designed for the Romance languages of Spain. Later development has
 extended the system to enable the development of translators between more
-divergent language pairs, such as Basque--Spanish\cite{ginesti09}.
+divergent language pairs, such as Basque--Spanish~\citep{ginesti09}.
 
 Apertium is constructed in a modular, assembly-line fashion. XML dictionaries
 are compiled to finite-state transducers; these transducers are reversible, so
@@ -188,6 +188,15 @@ as both perfective and imperfective verb forms can be matched to the
 same translation, but in the English--Polish direction, we were unable to
 translate many types of verb phrase properly.
 
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics*[width=7.5cm]{aspectselect.png}
+\end{center}
+\caption{Diagram of the English--Polish pipeline, with the aspect selection
+module highlighted in black.}
+\label{figure:modules}
+\end{figure}
+
 \section{Aspect selection}
 
 One of several solutions we attempted was to use the single-level transfer
@@ -195,32 +204,12 @@ mode with a custom dictionary consisting only of verbs, but this proved both
 unwieldy, as well as introducing new problems, such as missing word marks for
 non-verbs.
 
-The final solution came during the development of the apertium-cy~\cite{tyers2009acd}
+The final solution came during the development of the apertium-cy~\citep{tyers2009acd}
 system. To facilitate the post-processing of Welsh to introduce initial mutation, the
 apertium-transfer component was modified to operate in a monolingual, dictionary-less
 mode. This provided us with a new opportunity to test aspect selection.
 
-Instead of the 3 level transfer we had been using, we experimented with a 4 level
-system, where the English source was pretranslated to pseudo-English, where verbs
-were marked for aspect (Figure~\ref{fig:modules}). To reduce the number of 
-rules required in the previous first level, where translation is performed, 
-we also deleted any auxiliary verbs in
-the verb phrase. Figure~\ref{figure:rule} contains a sample rule, where verb 
-phrases of the type ``was going'' are converted to the verb ``go'', marked as
-imperfective.
-
-\begin{figure}[!ht]
-\begin{center}
-\includegraphics*[width=7.5cm]{aspectselect.png}
-\end{center}
-\caption{Diagram of the English--Polish pipeline, with the aspect selection
-module highlighted in black.}
-\label{fig:modules}
-\end{figure}
-
-
 \begin{figure}[htbp]
-\label{figure:rule}
 \begin{small}
 \begin{alltt}
 <rule>
@@ -254,10 +243,19 @@ is discarded; the primary verb is tagged as imperfective, and marked so
 that person and number are to be added in transfer (in the real rule, 
 where possible, the person information present in the form of ``be'' is
 used; that processing is omitted here for sake of demonstration).}
+\label{figure:rule}
 \end{figure}
 
+Instead of the 3 level transfer we had been using, we experimented with a 4 level
+system, where the English source was pretranslated to pseudo-English, where verbs
+were marked for aspect (Figure~\ref{figure:modules}). To reduce the number of 
+rules required in the previous first level, where translation is performed, 
+we also deleted any auxiliary verbs in
+the verb phrase. Figure~\ref{figure:rule} contains a sample rule, where verb 
+phrases of the type ``was going'' are converted to the verb ``go'', marked as
+imperfective.
+
 \begin{figure}[htbp]
-\label{figure:pardef}
 \begin{small}
 \begin{alltt}
 <pardef n="I">
@@ -267,10 +265,17 @@ used; that processing is omitted here for sake of demonstration).}
 \end{alltt}
 \end{small}
 \caption{Paradigm to select imperfective verbs.}
+\label{figure:pardef}
 \end{figure}
 
+To facilitate this change, the bilingual dictionary now needed to be
+retagged, so that the correct aspect tag was present for selection. We
+implemented this as a pair of paradigms (Figure~\ref{figure:pardef}, so that in the English--Polish
+direction, the correct verb form is selected, while in the 
+Polish--English direction, it is simply discarded. See Figure~\ref{figure:entry}
+for a sample entry.
+
 \begin{figure}[htbp]
-\label{figure:entry}
 \begin{small}
 \begin{alltt}
 <e>
@@ -283,14 +288,8 @@ used; that processing is omitted here for sake of demonstration).}
 \end{alltt}
 \end{small}
 \caption{Sample entry for an imperfective verb, using a paradigm.}
+\label{figure:entry}
 \end{figure}
-
-To facilitate this change, the bilingual dictionary now needed to be
-retagged, so that the correct aspect tag was present for selection. We
-implemented this as a pair of paradigms (Figure~\ref{figure:pardef}, so that in the English--Polish
-direction, the correct verb form is selected, while in the 
-Polish--English direction, it is simply discarded. See Figure~\ref{figure:entry}
-for a sample entry.
 
 \section{Beyond aspect pairs}
 
@@ -313,8 +312,8 @@ are falling more and more into decline, we elected simply to lexicalise
 the frequentative aspect, so that the verb corresponds with an English
 multiword verb containing the word ``often''.\\ 
 
-Dual-aspect verbs are not a particular problem in Polish: \cite{jagod} 
-lists only 6; \cite{futrega} has more, but for the most part, they
+Dual-aspect verbs are not a particular problem in Polish: \citep{jagod} 
+lists only 6; \citep{futrega} has more, but for the most part, they
 have been ``adapted'' to modern Polish by the addition of a true
 perfective.
 
@@ -323,13 +322,12 @@ Aktionsarten Classes 3 and 4 remained the largest problem.
 \section{Aktionsarten}
 
 In addition to a list of verbs from the literature on the 
-subject\cite{aalstein07}, we attempted to extract our own list of verbs
-from the Polish Ispell dictionary~\cite{futrega} using the Extract
-tool\cite{forsberg07} and a list of verbal prefixes~\cite[5.15.2]{bielec}.
+subject\citep{aalstein07}, we attempted to extract our own list of verbs
+from the Polish Ispell dictionary~\citep{futrega} using the Extract
+tool\citep{forsberg07} and a list of verbal prefixes~\citep[5.15.2]{bielec}.
 A sample rule is shown in Figure~\ref{figure:extract}.
 
 \begin{figure}[htbp]
-\label{figure:extract}
 \begin{small}
 \begin{alltt}
 rule class4za = 
@@ -346,6 +344,7 @@ x+"ać"
 \end{small}
 \caption{A sample Extract rule for Class 4 groups where the
 empty prefix is {\it za-}.}
+\label{figure:extract}
 \end{figure}
 
 One class 4 group yielded this way was that of {\it merda\'{c}},
@@ -388,10 +387,10 @@ direction, the current developers' interests lie more in the
 Polish--English side, which still depends on more accurate tagging.
 
 Reports on trigram tagging for Slavic languages in general, and Polish in 
-particular, show accuracy of 93--94\%~\cite{HajicKKOP01,Debowski04}; recent
-work in Apertium on a trigram tagger~\cite{sheikh2009trigram} is still
+particular, show accuracy of 93--94\%~\citep{HajicKKOP01,Debowski04}; recent
+work in Apertium on a trigram tagger~\citep{sheikh2009trigram} is still
 ongoing, but looks promising. In addition, some recent translators
-have integrated the Constraint Grammar system~\cite{karlsson1990cgf} for
+have integrated the Constraint Grammar system~\citep{karlsson1990cgf} for
 partial disambiguation, which may be able to help with some of the
 more difficult ambiguities.
 
@@ -399,7 +398,7 @@ In terms of aspect selection, we are also considering the applicability
 of CG to more precise aspect selection: although we have considered
 verb phrases, additionally considering other parts of the sentence 
 structure, such as subordinating conjunctions, may result in more
-accurate translation~\cite{kupsc03,kupsc03a}.
+accurate translation~\citep{kupsc03,kupsc03a}.
 
 \section{Conclusion}
 
