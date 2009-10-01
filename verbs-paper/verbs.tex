@@ -1,0 +1,380 @@
+\documentclass[11pt]{article}
+\usepackage{freerbmt09}
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{times}
+%\usepackage{natbib}
+\usepackage{url}
+\usepackage[small,bf]{caption}
+\usepackage{alltt}
+\usepackage{linguex}
+\usepackage{latexsym}
+
+\usepackage{hyperref}
+%\author{NN\\  X \\ X \\  X \\  {\tt \small   X@X} \And  NN \\  X \\  X \\  X \\    {\tt \small  X@X}}
+\author{Jimmy O'Regan\\  Eolaistriu Technologies \\  Ireland \\  {\tt \small   joregan@gmail.com} }
+
+
+\title{Aspect Selection of Slavic Verbs in an English--Polish Translator Built with the Apertium Platform}
+
+\begin{document}
+
+\maketitle
+
+  \begin{abstract}
+   Slavic languages\footnote{
+   When we refer in general terms to ``Slavic languages'', we specifically exclude 
+   the Bulgarian and Macedonian languages, which diverge from 
+   the rest of the Slavic family in a number of significant ways;
+   however, the question of aspect covered in this paper is not
+   one of them.} 
+   pose a number of problems in translation to non-Slavic
+   languages. We describe a solution to the problem of Slavic aspect pairs
+   suitable for use within a shallow-transfer machine translator
+   built on the Apertium platform, with particular focus on the
+   Polish--English language pair. We consider the problems posed
+   by {\emph Aktionsarten} and other exceptions to the notion of
+   aspect ``pairs''.
+  \end{abstract}
+
+\section{Introduction}
+Slavic verbs are generally considered to have ``aspect pairs'',
+consisting of an {\it imperfective} and {\it perfective} verb: 
+(generally) the former signifies that the action is on-going; 
+the latter, completed. Table~\ref{table:vbpairs} contains
+some examples of Polish verb pairs.
+
+\begin{table}[htdp]
+\caption{Imperfective \& Perfective Verb Pairs}
+\label{table:vbpairs}
+\begin{center}
+\begin{tabular}{|l|l|l|}
+\hline
+{\sc Imperf.} & {\sc Perf.} & English \\
+\hline
+{\it je{\'s\'c}} & {\it zje{\'s\'c}} & to eat \\
+{\it widzie{\'c}} & {\it zobaczy{\'c}} & to see \\
+{\it uczy{\'c}} & {\it nauczy{\'c}} & to teach \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+As can be seen in the table, many of these verb pairs contain
+a perfective verb with a preposition as a prefix: unlike other
+uses of prepositional prefixes, these do not change the meaning
+of the base verb: they serve only to provide a difference 
+between imperfective and perfective and are usually referred to as
+``empty'' prefixes.
+
+In reality, the situation is much more complicated: verbs of motion can
+have triples: imperfective indeterminate ({\it ``destination unknown''}), 
+imperfective determinate ({\it ``destination known, action incomplete''}),
+and perfective ({\it ``action completed''}); some verbs are {\it dual aspect}:
+they can be used both as perfective and imperfective verbs; many common
+verbs have a {\it frequentative} version; and, finally, recently\footnote{
+{\it ``In Slavic aspectology, the distinction between aspect and Aktionsart
+began [to be] accepted in the early 1930s. However, the notion of Aktionsart did not make
+it into textbooks on Slavic grammars until the second half of the twentieth century,
+and it did not make it into Slavic dictionaries until very recently.''}
+\cite[Ch.~2]{mlyn}}
+the distinction between aspect and {\it Aktionsarten} has become more common.\\
+
+Polish verbs have been classified by Aktionsarten\cite[Ch.~4]{mlyn} into
+five classes, as in Table~\ref{table:aktionsarten}. 
+
+\begin{table}[htdp]
+\caption{Classification of Polish verbs by Aktionsarten}
+\label{table:aktionsarten}
+\begin{center}
+\begin{tabular}{|l|c|c|c|c|}
+\hline
+& ep & {\it po-} & {\it -n\k{a}-} & mpc\\
+\hline
+\hline
+Class$_{1}$ & yes & & & \\
+\hline
+Class$_{2}$ &  & yes & & \\
+\hline
+Class$_{3}$ & yes & yes & & \\
+\hline
+Class$_{4}$ & yes & yes & yes & \\
+\hline
+Class$_{5}$ & & & & yes \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+In the table, {\it ep} refers to ``empty prefix'', {\it po-} refers
+to the prepositional ``po'', whether as an empty prefix, or as the
+deliminative prefix, {\it -n\k{a}-} refers to the semelfactive infix,
+and {\it mpc} refers to ``morpho-phonological change''. For our
+purposes, Classes 1, 2, and 5 are equivalent: these refer to aspect
+pairs. The remaining classes 3 and 4 are more interesting: they 
+refer to groups of 3 and 4 verbs, respectively.
+
+In these Classes, {\it po-} is the deliminative prefix: it represents
+a perfective aspect with an other-than-usual outcome. In the example
+of the Class 3 group containing the verb {\it czyta\'{c}}, ``to read'',
+{\it przeczyta\'{c}} is the usual perfective, meaning ``to read'', but
+with the connotation that the reading was completed; {\it poczyta\'{c}},
+on the other hand, means ``to read for a while'': to read a book from
+cover to cover is the former; to read a few pages, throw it aside, and 
+vow never to touch it again is the latter\footnote{Not, I hope, a 
+self-fulfilling prophecy}.
+
+Class 4 are unitisable processes~\cite{aalstein07}: {\it puka\'{c}}
+``to knock'' yields the perfectives {\it pukn\k{a}\'{c}} ``to knock once'', 
+{\it popuka\'{c}} ``to knock for a while'', and the ``empty'', regular 
+{\it zapuka\'{c}}.\\
+
+Apertium~\cite{corbi05oss} is a shallow-transfer Machine Translation platform,
+originally designed for the Romance languages of Spain. Later development has
+extended the system to enable the development of translators between more
+divergent language pairs, such as Basque--Spanish\cite{ginesti09}.
+
+Apertium is constructed in a modular, assembly-line fashion. XML dictionaries
+are compiled to finite-state transducers; these transducers are reversible, so
+the same monolingual dictionaries can be used both for analysis and generation,
+and the same bilingual dictionary can be used in both translation directions.
+
+After morphological analysis, the analysed text stream is disambiguated using
+a bigram tagger based on first order hidden Markov models (HMMs), before
+being passed to either 1 (for very closely related languages) or 3 
+(less related) layers of structural transfer. In the 3-layer system,
+bilingual translation is handled by the first transfer layer, with the
+other two layers handling inter-chunk operations (such as gender 
+agreement), and chunk post-processing respectively.\\
+
+Work began on a Polish--English language pair almost two years ago,
+but when various limitations in the platform prevented the completion of
+the system, the developers lost interest and pursued other projects.
+
+Polish, like the other Slavic languages, is a highly
+inflected language. Although word order is typically SVO, Polish can almost
+be considered to be a free word order language, with inflected endings
+{\it usually} providing the distinction between subject and object. This 
+alone does not pose a problem for structural transfer, though it does
+mean that six times the usual number of inter-chunk rules are theoretically
+required: in practice, however, not all possible variations are typically 
+necessary. 
+
+In addition, cases often serve to in place of prepositions; the genitive
+case in particular poses several difficulties, as does the ambiguous
+preposition ``z'', which when followed by a noun phrase in the genitive
+case generally means ``from''; by the instrumental, ``with''. We tried
+to handle this by annotating ``z'' with both expected cases, and
+allowing the tagger to choose the correct one, which works well for
+many cases: {\it z Francji} -- ``from France''; {\it z mlekiem} --
+``with milk'', but fails in more complicated cases:
+
+\begin{center}
+\begin{table}[htdp]
+z$_{\it Pr.Ins}$ brata$_{\it N.Gen}$ {\.{z}on\k{a}}$_{\it N.Ins}$ \\
+with (my) brother's wife \\
+z$_{\it Pr.Gen}$ miasta$_{\it N.Gen}$ samochodem$_{\it N.Ins}$\\
+from town by car
+\end{table}
+\end{center}
+
+In the English--Polish direction, the biggest problem is that the
+apertium transfer component can only use a single translation per lemma;
+for Polish verbs, in the Polish--English direction, this poses no problem,
+as both perfective and imperfective verb forms can be matched to the
+same translation, but in the English--Polish direction, we were unable to
+translate many types of verb phrase properly.
+
+\section{Aspect selection}
+
+One of several solutions we attempted was to use the single-level transfer
+mode with a custom dictionary consisting only of verbs, but this proved both
+unwieldy, as well as introducing new problems, such as missing word marks for
+non-verbs.
+
+The final solution came during the development of the apertium-cy~\cite{tyers2009acd}
+system. To facilitate the post-processing of Welsh to introduce initial mutation, the
+apertium-transfer component was modified to operate in a monolingual, dictionary-less
+mode. This provided us with a new opportunity to test aspect selection.
+
+Instead of the 3 level transfer we had been using, we experimented with a 4 level
+system, where the English source was pretranslated to pseudo-English, where verbs
+were marked for aspect. To reduce the number of rules required in the previous
+first level, where translation is performed, we also deleted any auxiliary verbs in
+the verb phrase. Figure~\ref{figure:rule} contains a sample rule, where verb 
+phrases of the type ``was going'' are converted to the verb ``go'', marked as
+imperfective.
+
+\begin{figure}[htbp]
+\label{figure:rule}
+\begin{small}
+\begin{alltt}
+<rule>
+  <pattern>
+    <pattern-item n="is/was"/>
+    <pattern-item n="gerund"/>
+  </pattern>
+  <action>
+    <out>
+      <lu>
+        <get-case-from pos="1">
+          <clip pos="2" side="sl" 
+           part="lemh"/>
+        </get-case-from>
+        <lit v="imperf"/>
+        <clip pos="1" side="sl" 
+         part="temps"/>
+        <lit v="PD"/>
+        <lit v="ND"/>
+        <clip pos="2" side="sl" 
+         part="lemq"/>
+      </lu>  
+    </out>
+  </action>
+</rule>
+\end{alltt}
+\end{small}
+\caption{A sample rule that matches the verb ``be'' followed by a
+gerund. In this rule, the tense (``temps'') is taken from ``be'', which
+is discarded; the primary verb is tagged as imperfective, and marked so
+that person and number are to be added in transfer (in the real rule, 
+where possible, the person information present in the form of ``be'' is
+used; that processing is omitted here for sake of demonstration).}
+\end{figure}
+
+To facilitate this change, the bilingual dictionary now needed to be
+retagged, so that the correct aspect tag was present for selection. We
+implemented this as a pair of paradigms, so that in the English--Polish
+direction, the correct verb form is selected, while in the 
+Polish--English direction, it is simply discarded.
+
+\section{Beyond aspect pairs}
+
+As we have mentioned, the situation of Slavic verbs is not quite as
+simple as that of just aspect pairs.
+
+In the case of verbs of motion, only a few verbs are affected; however,
+as they are also among the most basic, common verbs, we needed to 
+address them. 
+
+To select between the determinate and indeterminate forms, we used a
+similar system as for aspect, concentrating only on imperfective
+phrases. By making the simplistic assumption that the presence or
+absence of a preposition immediately after the phrase, we are mostly
+successful in choosing the correct form.
+
+When considering frequentative verbs, as aspect is not a problem
+(frequentative verbs also have aspect pairs), and the verbs themselves
+are falling more and more into decline, we elected simply to lexicalise
+the frequentative aspect, so that the verb corresponds with an English
+multiword verb containing the word ``often''.\\ 
+
+Dual-aspect verbs are not a particular problem in Polish: \cite{jagod} 
+lists only 6; \cite{futrega} has more, but for the most part, they
+have been ``adapted'' to modern Polish by the addition of a true
+perfective.
+
+Aktionsarten Classes 3 and 4 remained the largest problem.
+
+\section{Aktionsarten}
+
+In addition to a list of verbs from the literature on the 
+subject\cite{aalstein07}, we attempted to extract our own list of verbs
+from the Polish Ispell dictionary~\cite{futrega} using the Extract
+tool\cite{forsberg07} and a list of verbal prefixes~\cite[5.15.2]{bielec}.
+A sample rule is shown in Figure~\ref{figure:extract}.
+
+\begin{figure}[htbp]
+\label{figure:extract}
+\begin{small}
+\begin{alltt}
+rule class4za = 
+x+"ać"
+\{ 
+  x+"ać" \&
+  x+"nąć" \&
+  "za"+x+"ać" \&
+  ~"za"+x+"ywać" \&
+  "po"+x+"ać" \&
+  ~"po"+x+"ywać" \&
+\}
+\end{alltt}
+\end{small}
+\caption{A sample Extract rule for Class 4 groups where the
+empty prefix is {\it za-}.}
+\end{figure}
+
+One class 4 group yielded this way was that of {\it merda\'{c}},
+``to wag''. However, in manually checking the forms of this verb,
+initially we were only able to find single example of the empty prefix 
+perfective, {\it zamerda\'{c}}\footnote{In the sentence ``Ludzie s\k{a}
+smutni, bo nie maj\k{a} czym zamerda\'{c}'' -- ``People are sad, because
+they have nothing to wag''. Later searches, however, uncovered a much 
+more significant number of uses.}, leading us to believe it was not so
+important to treat Aktionsarten specially in rules. For some of
+the more common verbs which would otherwise have no imperfective
+counterpart, we concluded that the best approach was simply to ``invent'' 
+a multiword imperfective to match the English multiword, which
+proved an adequate solution.
+
+\section{Applicability to Other Languages}
+
+On the whole, we believe that it should be possible to reuse this
+work with few changes for other Slavic--English language pairs.
+
+It is, however, important to note that although Slavic languages
+basically share the same notions of aspect, some of the details are
+quite different, and must be considered even in Slavic--Slavic
+translation.
+
+Russian in particular has a great number of dual-aspect verbs, which
+should be considered before attempting English--Non-Slavic translation.
+
+We believe that this approach should also be applicable to languages
+other than English. For Spanish, for example, it should be much easier
+to translate to Slavic, as some of the tenses already include a notion
+of aspect; also, there are fewer common analytical verb phrases to
+be considered (that is, if a quick view of the verb rules in the
+English--Spanish and Spanish--French systems gives an accurate overview).
+
+\section{Future work}
+The English--Polish language pair is still a work-in-progress. Though
+we have solved the most significant problem in the English--Polish
+direction, the current developers' interests lie more in the 
+Polish--English side, which still depends on more accurate tagging.
+
+Reports on trigram tagging for Slavic languages in general, and Polish in 
+particular, show accuracy of 93--94\%~\cite{HajicKKOP01,Debowski04}; recent
+work in Apertium on a trigram tagger~\cite{sheikh2009trigram} is still
+ongoing, but looks promising. In addition, some recent translators
+have integrated the Constraint Grammar system~\cite{karlsson1990cgf} for
+partial disambiguation, which may be able to help with some of the
+more difficult ambiguities.
+
+In terms of aspect selection, we are also considering the applicability
+of CG to more precise aspect selection: although we have considered
+verb phrases, additionally considering other parts of the sentence 
+structure, such as subordinating conjunctions, may result in more
+accurate translation~\cite{kupsc03,kupsc03a}.
+
+\section{Conclusion}
+
+We have presented a method for aspect selection for machine translators
+build with the Apertium Machine Translation platform. We have discussed
+an implementation built for the English--Polish language pair, and
+discussed the suitability of our approach to other Slavic--Non-Slavic 
+pairs.
+
+\section{Acknowledgements}
+
+Thanks to Beata (kt\'{o}ra zainspirowa\l{}a mnie si\k{e} uczy\'{c} polskiego),
+whose painstaking word-for-word translation of a manual lead to my 
+interest in MT; to Francis Tyers, for his help at the inception of the
+English--Polish language pair, and to the other members of the Apertium
+community, who make it such fun to be involved in.
+
+\bibliographystyle{apalike}
+\bibliography{verbs}
+
+\end{document}
