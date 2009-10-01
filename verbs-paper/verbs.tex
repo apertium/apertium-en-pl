@@ -4,7 +4,9 @@
 \usepackage[utf8x]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{times}
-%\usepackage{natbib}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{rotating}
 \usepackage{url}
 \usepackage[small,bf]{caption}
 \usepackage{alltt}
@@ -200,11 +202,22 @@ mode. This provided us with a new opportunity to test aspect selection.
 
 Instead of the 3 level transfer we had been using, we experimented with a 4 level
 system, where the English source was pretranslated to pseudo-English, where verbs
-were marked for aspect. To reduce the number of rules required in the previous
-first level, where translation is performed, we also deleted any auxiliary verbs in
+were marked for aspect (Figure~\ref{fig:modules}). To reduce the number of 
+rules required in the previous first level, where translation is performed, 
+we also deleted any auxiliary verbs in
 the verb phrase. Figure~\ref{figure:rule} contains a sample rule, where verb 
 phrases of the type ``was going'' are converted to the verb ``go'', marked as
 imperfective.
+
+\begin{figure}[!ht]
+\begin{center}
+\includegraphics*[width=7.5cm]{aspectselect.png}
+\end{center}
+\caption{Diagram of the English--Polish pipeline, with the aspect selection
+module highlighted in black.}
+\label{fig:modules}
+\end{figure}
+
 
 \begin{figure}[htbp]
 \label{figure:rule}
@@ -243,11 +256,41 @@ where possible, the person information present in the form of ``be'' is
 used; that processing is omitted here for sake of demonstration).}
 \end{figure}
 
+\begin{figure}[htbp]
+\label{figure:pardef}
+\begin{small}
+\begin{alltt}
+<pardef n="I">
+  <e r="LR"><i><s n="imperf"/></i></e>
+  <e r="RL"><i/></e>
+</pardef>
+\end{alltt}
+\end{small}
+\caption{Paradigm to select imperfective verbs.}
+\end{figure}
+
+\begin{figure}[htbp]
+\label{figure:entry}
+\begin{small}
+\begin{alltt}
+<e>
+  <p>
+    <l>read<s n="vblex"/></l>
+    <r>czyta{\'{c}}<s n="vblex"/></r>
+  </p>
+  <par n="I"/>
+</e>
+\end{alltt}
+\end{small}
+\caption{Sample entry for an imperfective verb, using a paradigm.}
+\end{figure}
+
 To facilitate this change, the bilingual dictionary now needed to be
 retagged, so that the correct aspect tag was present for selection. We
-implemented this as a pair of paradigms, so that in the English--Polish
+implemented this as a pair of paradigms (Figure~\ref{figure:pardef}, so that in the English--Polish
 direction, the correct verb form is selected, while in the 
-Polish--English direction, it is simply discarded.
+Polish--English direction, it is simply discarded. See Figure~\ref{figure:entry}
+for a sample entry.
 
 \section{Beyond aspect pairs}
 
@@ -371,7 +414,10 @@ pairs.
 Thanks to Beata (kt\'{o}ra zainspirowa\l{}a mnie si\k{e} uczy\'{c} polskiego),
 whose painstaking word-for-word translation of a manual lead to my 
 interest in MT; to Francis Tyers, for his help at the inception of the
-English--Polish language pair, and to the other members of the Apertium
+English--Polish language pair; to Sergio Ortiz-Rojas for implementing the
+dictionary-less mode that made this possible; to Marcin Mi\l{}kowski for
+the vast amount of open-source linguistic resources he has created for Polish;
+and to the other members of the Apertium
 community, who make it such fun to be involved in.
 
 \bibliographystyle{apalike}
