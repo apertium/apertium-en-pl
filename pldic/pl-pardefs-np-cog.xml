@@ -1,5 +1,51 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <pardefs>
+
+    <pardef n="PBASE__mp_pl">
+      <e c="Regular nominal plurals">
+        <p>
+          <l>owie</l>
+          <r><s n="mp"/><s n="pl"/><s n="nom"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ów</l>
+          <r><s n="mp"/><s n="pl"/><s n="gen"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>om</l>
+          <r><s n="mp"/><s n="pl"/><s n="dat"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ów</l>
+          <r><s n="mp"/><s n="pl"/><s n="acc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ami</l>
+          <r><s n="mp"/><s n="pl"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ach</l>
+          <r><s n="mp"/><s n="pl"/><s n="loc"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>owie</l>
+          <r><s n="mp"/><s n="pl"/><s n="voc"/></r>
+        </p>
+      </e>
+    </pardef>
+
     <pardef n="Wayn/e__np_cog">
       <e>
         <p>
@@ -45,45 +91,10 @@
       </e>
       <e>
         <p>
-          <l>e'owie</l>
-          <r>e<s n="np"/><s n="cog"/><s n="mp"/><s n="pl"/><s n="nom"/></r>
+          <l>e'</l>
+          <r>e<s n="np"/><s n="cog"/></r>
         </p>
-      </e>
-      <e>
-        <p>
-          <l>e'ów</l>
-          <r>e<s n="np"/><s n="cog"/><s n="mp"/><s n="pl"/><s n="gen"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>e'om</l>
-          <r>e<s n="np"/><s n="cog"/><s n="mp"/><s n="pl"/><s n="dat"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>e'ów</l>
-          <r>e<s n="np"/><s n="cog"/><s n="mp"/><s n="pl"/><s n="acc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>e'ami</l>
-          <r>e<s n="np"/><s n="cog"/><s n="mp"/><s n="pl"/><s n="ins"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>e'ach</l>
-          <r>e<s n="np"/><s n="cog"/><s n="mp"/><s n="pl"/><s n="loc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>e'owie</l>
-          <r>e<s n="np"/><s n="cog"/><s n="mp"/><s n="pl"/><s n="voc"/></r>
-        </p>
+        <par n="PBASE__mp_pl"/>
       </e>
     </pardef>
     <pardef n="Guinness__np_cog">
@@ -131,45 +142,10 @@
       </e>
       <e>
         <p>
-          <l>owie</l>
-          <r><s n="np"/><s n="cog"/><s n="mp"/><s n="pl"/><s n="nom"/></r>
+          <l></l>
+          <r><s n="np"/><s n="cog"/></r>
         </p>
-      </e>
-      <e>
-        <p>
-          <l>ów</l>
-          <r><s n="np"/><s n="cog"/><s n="mp"/><s n="pl"/><s n="gen"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>om</l>
-          <r><s n="np"/><s n="cog"/><s n="mp"/><s n="pl"/><s n="dat"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ów</l>
-          <r><s n="np"/><s n="cog"/><s n="mp"/><s n="pl"/><s n="acc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ami</l>
-          <r><s n="np"/><s n="cog"/><s n="mp"/><s n="pl"/><s n="ins"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ach</l>
-          <r><s n="np"/><s n="cog"/><s n="mp"/><s n="pl"/><s n="loc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>owie</l>
-          <r><s n="np"/><s n="cog"/><s n="mp"/><s n="pl"/><s n="voc"/></r>
-        </p>
+        <par n="PBASE__mp_pl"/>
       </e>
     </pardef>
     <pardef n="Kowals/ki__np">
@@ -355,61 +331,56 @@
       <e>
         <p>
           <l>a</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/><s n="nom"/></r>
+          <r>a<s n="np"/><s n="cog"/><s n="sg"/><s n="nom"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>y</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/><s n="gen"/></r>
+          <r>a<s n="np"/><s n="cog"/><s n="sg"/><s n="gen"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>zie</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/><s n="dat"/></r>
+          <r>a<s n="np"/><s n="cog"/><s n="sg"/><s n="dat"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ę</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/><s n="acc"/></r>
+          <r>a<s n="np"/><s n="cog"/><s n="sg"/><s n="acc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ą</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/><s n="ins"/></r>
+          <r>a<s n="np"/><s n="cog"/><s n="sg"/><s n="ins"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>zie</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/><s n="loc"/></r>
+          <r>a<s n="np"/><s n="cog"/><s n="sg"/><s n="loc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>o</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/><s n="voc"/></r>
+          <r>a<s n="np"/><s n="cog"/><s n="sg"/><s n="voc"/></r>
         </p>
       </e>
       <e>
         <p>
-          <l>owie</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mp"/><s n="pl"/><s n="nom"/></r>
+          <l></l>
+          <r>a<s n="np"/><s n="cog"/></r>
         </p>
+        <par n="PBASE__mp_pl"/>
       </e>
       <e>
         <p>
           <l>y</l>
           <r>a<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="nom"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ów</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mp"/><s n="pl"/><s n="gen"/></r>
         </p>
       </e>
       <e>
@@ -421,25 +392,7 @@
       <e>
         <p>
           <l>om</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="dat"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ami</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="ins"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ach</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mf"/><s n="pl"/><s n="loc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ów</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mp"/><s n="pl"/><s n="acc"/></r>
+          <r>a<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="dat"/></r>
         </p>
       </e>
       <e>
@@ -450,8 +403,14 @@
       </e>
       <e>
         <p>
-          <l>owie</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mp"/><s n="pl"/><s n="voc"/></r>
+          <l>ami</l>
+          <r>a<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="ins"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ach</l>
+          <r>a<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="loc"/></r>
         </p>
       </e>
       <e>
@@ -465,339 +424,227 @@
       <e>
         <p>
           <l>a</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mf"/><s n="mp"/><s n="sg"/><s n="nom"/></r>
+          <r>a<s n="np"/><s n="cog"/><s n="mp"/><s n="sg"/><s n="nom"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>y</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mf"/><s n="mp"/><s n="sg"/><s n="gen"/></r>
+          <r>a<s n="np"/><s n="cog"/><s n="mp"/><s n="sg"/><s n="gen"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ze</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mf"/><s n="mp"/><s n="sg"/><s n="dat"/></r>
+          <r>a<s n="np"/><s n="cog"/><s n="mp"/><s n="sg"/><s n="dat"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ę</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mf"/><s n="mp"/><s n="sg"/><s n="acc"/></r>
+          <r>a<s n="np"/><s n="cog"/><s n="mp"/><s n="sg"/><s n="acc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ą</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mf"/><s n="mp"/><s n="sg"/><s n="ins"/></r>
+          <r>a<s n="np"/><s n="cog"/><s n="mp"/><s n="sg"/><s n="ins"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ze</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mf"/><s n="mp"/><s n="sg"/><s n="loc"/></r>
+          <r>a<s n="np"/><s n="cog"/><s n="mp"/><s n="sg"/><s n="loc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>o</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mf"/><s n="mp"/><s n="sg"/><s n="voc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>a</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mf"/><s n="f"/><s n="sg"/><s n="nom"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>y</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mf"/><s n="f"/><s n="sg"/><s n="gen"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ze</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mf"/><s n="f"/><s n="sg"/><s n="dat"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ę</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mf"/><s n="f"/><s n="sg"/><s n="acc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ą</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mf"/><s n="f"/><s n="sg"/><s n="ins"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ze</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mf"/><s n="f"/><s n="sg"/><s n="loc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>o</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mf"/><s n="f"/><s n="sg"/><s n="voc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>owie</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mf"/><s n="mp"/><s n="pl"/><s n="nom"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>y</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mf"/><s n="f"/><s n="pl"/><s n="nom"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ów</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mf"/><s n="mp"/><s n="pl"/><s n="gen"/></r>
+          <r>a<s n="np"/><s n="cog"/><s n="mp"/><s n="sg"/><s n="voc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l></l>
-          <r>a<s n="np"/><s n="cog"/><s n="mf"/><s n="f"/><s n="pl"/><s n="gen"/></r>
+          <r>a<s n="np"/><s n="cog"/></r>
         </p>
+        <par n="PBASE__mp_pl"/>
       </e>
       <e>
         <p>
-          <l>om</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mf"/><s n="mp"/><s n="pl"/><s n="dat"/></r>
+          <l></l>
+          <r>a<s n="np"/><s n="cog"/></r>
         </p>
-      </e>
-      <e>
-        <p>
-          <l>ami</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mf"/><s n="mp"/><s n="pl"/><s n="ins"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ach</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mf"/><s n="mp"/><s n="pl"/><s n="loc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>om</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mf"/><s n="f"/><s n="pl"/><s n="dat"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ami</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mf"/><s n="f"/><s n="pl"/><s n="ins"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ach</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mf"/><s n="f"/><s n="pl"/><s n="loc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ów</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mf"/><s n="mp"/><s n="pl"/><s n="acc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>y</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mf"/><s n="f"/><s n="pl"/><s n="acc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>owie</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mf"/><s n="mp"/><s n="pl"/><s n="voc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>y</l>
-          <r>a<s n="np"/><s n="cog"/><s n="mf"/><s n="f"/><s n="pl"/><s n="voc"/></r>
-        </p>
+        <par n="BASE__viagra"/>
       </e>
     </pardef>
     <pardef n="Kędzi/ora__np">
       <e>
         <p>
           <l>ora</l>
-          <r>ora<s n="np"/><s n="cog"/><s n="mf"/><s n="mp"/><s n="sg"/><s n="nom"/></r>
+          <r>ora<s n="np"/><s n="cog"/><s n="mp"/><s n="sg"/><s n="nom"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ory</l>
-          <r>ora<s n="np"/><s n="cog"/><s n="mf"/><s n="mp"/><s n="sg"/><s n="gen"/></r>
+          <r>ora<s n="np"/><s n="cog"/><s n="mp"/><s n="sg"/><s n="gen"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>orze</l>
-          <r>ora<s n="np"/><s n="cog"/><s n="mf"/><s n="mp"/><s n="sg"/><s n="dat"/></r>
+          <r>ora<s n="np"/><s n="cog"/><s n="mp"/><s n="sg"/><s n="dat"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>orę</l>
-          <r>ora<s n="np"/><s n="cog"/><s n="mf"/><s n="mp"/><s n="sg"/><s n="acc"/></r>
+          <r>ora<s n="np"/><s n="cog"/><s n="mp"/><s n="sg"/><s n="acc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>orą</l>
-          <r>ora<s n="np"/><s n="cog"/><s n="mf"/><s n="mp"/><s n="sg"/><s n="ins"/></r>
+          <r>ora<s n="np"/><s n="cog"/><s n="mp"/><s n="sg"/><s n="ins"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>orze</l>
-          <r>ora<s n="np"/><s n="cog"/><s n="mf"/><s n="mp"/><s n="sg"/><s n="loc"/></r>
+          <r>ora<s n="np"/><s n="cog"/><s n="mp"/><s n="sg"/><s n="loc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>oro</l>
-          <r>ora<s n="np"/><s n="cog"/><s n="mf"/><s n="mp"/><s n="sg"/><s n="voc"/></r>
+          <r>ora<s n="np"/><s n="cog"/><s n="mp"/><s n="sg"/><s n="voc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ora</l>
-          <r>ora<s n="np"/><s n="cog"/><s n="mf"/><s n="f"/><s n="sg"/><s n="nom"/></r>
+          <r>ora<s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="nom"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ory</l>
-          <r>ora<s n="np"/><s n="cog"/><s n="mf"/><s n="f"/><s n="sg"/><s n="gen"/></r>
+          <r>ora<s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="gen"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>orze</l>
-          <r>ora<s n="np"/><s n="cog"/><s n="mf"/><s n="f"/><s n="sg"/><s n="dat"/></r>
+          <r>ora<s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="dat"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>orę</l>
-          <r>ora<s n="np"/><s n="cog"/><s n="mf"/><s n="f"/><s n="sg"/><s n="acc"/></r>
+          <r>ora<s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="acc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>orą</l>
-          <r>ora<s n="np"/><s n="cog"/><s n="mf"/><s n="f"/><s n="sg"/><s n="ins"/></r>
+          <r>ora<s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="ins"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>orze</l>
-          <r>ora<s n="np"/><s n="cog"/><s n="mf"/><s n="f"/><s n="sg"/><s n="loc"/></r>
+          <r>ora<s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="loc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>oro</l>
-          <r>ora<s n="np"/><s n="cog"/><s n="mf"/><s n="f"/><s n="sg"/><s n="voc"/></r>
+          <r>ora<s n="np"/><s n="cog"/><s n="f"/><s n="sg"/><s n="voc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>orowie</l>
-          <r>ora<s n="np"/><s n="cog"/><s n="mf"/><s n="mp"/><s n="pl"/><s n="nom"/></r>
+          <r>ora<s n="np"/><s n="cog"/><s n="mp"/><s n="pl"/><s n="nom"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ory</l>
-          <r>ora<s n="np"/><s n="cog"/><s n="mf"/><s n="f"/><s n="pl"/><s n="nom"/></r>
+          <r>ora<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="nom"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>orów</l>
-          <r>ora<s n="np"/><s n="cog"/><s n="mf"/><s n="mp"/><s n="pl"/><s n="gen"/></r>
+          <r>ora<s n="np"/><s n="cog"/><s n="mp"/><s n="pl"/><s n="gen"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ór</l>
-          <r>ora<s n="np"/><s n="cog"/><s n="mf"/><s n="f"/><s n="pl"/><s n="gen"/></r>
+          <r>ora<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="gen"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>orom</l>
-          <r>ora<s n="np"/><s n="cog"/><s n="mf"/><s n="mp"/><s n="pl"/><s n="dat"/></r>
+          <r>ora<s n="np"/><s n="cog"/><s n="mp"/><s n="pl"/><s n="dat"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>orami</l>
-          <r>ora<s n="np"/><s n="cog"/><s n="mf"/><s n="mp"/><s n="pl"/><s n="ins"/></r>
+          <r>ora<s n="np"/><s n="cog"/><s n="mp"/><s n="pl"/><s n="ins"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>orach</l>
-          <r>ora<s n="np"/><s n="cog"/><s n="mf"/><s n="mp"/><s n="pl"/><s n="loc"/></r>
+          <r>ora<s n="np"/><s n="cog"/><s n="mp"/><s n="pl"/><s n="loc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>orom</l>
-          <r>ora<s n="np"/><s n="cog"/><s n="mf"/><s n="f"/><s n="pl"/><s n="dat"/></r>
+          <r>ora<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="dat"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>orami</l>
-          <r>ora<s n="np"/><s n="cog"/><s n="mf"/><s n="f"/><s n="pl"/><s n="ins"/></r>
+          <r>ora<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="ins"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>orach</l>
-          <r>ora<s n="np"/><s n="cog"/><s n="mf"/><s n="f"/><s n="pl"/><s n="loc"/></r>
+          <r>ora<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="loc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>orów</l>
-          <r>ora<s n="np"/><s n="cog"/><s n="mf"/><s n="mp"/><s n="pl"/><s n="acc"/></r>
+          <r>ora<s n="np"/><s n="cog"/><s n="mp"/><s n="pl"/><s n="acc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ory</l>
-          <r>ora<s n="np"/><s n="cog"/><s n="mf"/><s n="f"/><s n="pl"/><s n="acc"/></r>
+          <r>ora<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="acc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>orowie</l>
-          <r>ora<s n="np"/><s n="cog"/><s n="mf"/><s n="mp"/><s n="pl"/><s n="voc"/></r>
+          <r>ora<s n="np"/><s n="cog"/><s n="mp"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ory</l>
-          <r>ora<s n="np"/><s n="cog"/><s n="mf"/><s n="f"/><s n="pl"/><s n="voc"/></r>
+          <r>ora<s n="np"/><s n="cog"/><s n="f"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
     </pardef>
@@ -928,48 +775,6 @@
         <p>
           <l></l>
           <r><s n="np"/><s n="cog"/><s n="mp"/><s n="sg"/><s n="voc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>owie</l>
-          <r><s n="np"/><s n="cog"/><s n="mp"/><s n="pl"/><s n="nom"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ów</l>
-          <r><s n="np"/><s n="cog"/><s n="mp"/><s n="pl"/><s n="gen"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>om</l>
-          <r><s n="np"/><s n="cog"/><s n="mp"/><s n="pl"/><s n="dat"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ami</l>
-          <r><s n="np"/><s n="cog"/><s n="mp"/><s n="pl"/><s n="ins"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ach</l>
-          <r><s n="np"/><s n="cog"/><s n="mp"/><s n="pl"/><s n="loc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ów</l>
-          <r><s n="np"/><s n="cog"/><s n="mp"/><s n="pl"/><s n="acc"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>owie</l>
-          <r><s n="np"/><s n="cog"/><s n="mp"/><s n="pl"/><s n="voc"/></r>
         </p>
       </e>
     </pardef>
