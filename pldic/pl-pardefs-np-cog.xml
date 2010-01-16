@@ -1760,7 +1760,7 @@
         </p>
       </e>
     </pardef>
-    <pardef n="Lind/e__n">
+    <pardef n="Lind/e__np">
       <e>
         <p>
           <l>e</l>
@@ -1809,10 +1809,10 @@
           <r>e<s n="np"/><s n="cog"/><s n="mp"/><s n="nom"/><s n="pl"/></r>
         </p>
       </e>
-      <e r="LR">
+      <e>
         <p>
           <l>y</l>
-          <r>e<s n="np"/><s n="cog"/><s n="mp"/><s n="nom"/><s n="pl"/></r>
+          <r>e<s n="np"/><s n="cog"/><s n="nm"/><s n="nom"/><s n="pl"/></r>
         </p>
       </e>
       <e>
@@ -1851,10 +1851,10 @@
           <r>e<s n="np"/><s n="cog"/><s n="mp"/><s n="voc"/><s n="pl"/></r>
         </p>
       </e>
-      <e r="LR">
+      <e>
         <p>
           <l>y</l>
-          <r>e<s n="np"/><s n="cog"/><s n="mp"/><s n="voc"/><s n="pl"/></r>
+          <r>e<s n="np"/><s n="cog"/><s n="nm"/><s n="voc"/><s n="pl"/></r>
         </p>
       </e>
     </pardef>
