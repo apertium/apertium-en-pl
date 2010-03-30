@@ -172,11 +172,3 @@ pldic/url-pardefs.xml -text
 /pldix-othernames.xml -text
 /pldix-places.xml -text
 /pldix-surnames.xml -text
-verbs-paper/aspectselect.dia -text svneol=unset#unset
-verbs-paper/aspectselect.png -text svneol=unset#unset
-verbs-paper/cgloss4e.sty -text
-verbs-paper/freerbmt09.sty -text
-verbs-paper/linguex.sty -text
-verbs-paper/linguho.sty -text
-verbs-paper/verbs.bib -text
-verbs-paper/verbs.tex -text
