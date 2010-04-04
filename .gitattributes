@@ -60,7 +60,6 @@ misc/nouns.extract -text
 misc/s_czas -text
 /modes.xml -text
 /pl-en.prob -text svneol=unset#unset
-pldic/apertium-en-pl.pl.pardefs.xml -text
 pldic/in-progress/tur-m2.xml.in -text
 pldic/in-progress/tur-m3.xml.in -text
 pldic/pl-metapardefs-f.xml -text

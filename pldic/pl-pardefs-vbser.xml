@@ -1,19 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <pardefs>
 
-      <e>
-        <p>
-          <l>byto</l>
-          <r>być<s n="vbser"/><s n="pp"/><s n="impers"/><s n="nt"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>będąc</l>
-          <r>być<s n="vbser"/><s n="adv"/></r>
-        </p>
-      </e>
-
       <!-- Gerund -->
 
       <e>
