@@ -1,147 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <pardefs>
-    <pardef n="czyt/ać__vblex">
-      <e>
-         <p>
-          <l>ać</l>
-          <r>ać<s n="vblex"/><s n="imperf"/><s n="inf"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>am</l>
-          <r>ać<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>asz</l>
-          <r>ać<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>a</l>
-          <r>ać<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="mf"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>amy</l>
-          <r>ać<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>acie</l>
-          <r>ać<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ają</l>
-          <r>ać<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
-        </p>
-      </e>
-
-      <e><i>a</i><par n="imperative__v"/></e>
-      <e><i>a</i><par n="past_sg__v"/></e>
-      <e><i>a</i><par n="past_sg_n__v"/></e>
-      <e><i>a</i><par n="past_pl_m__v"/></e>
-      <e><i>a</i><par n="past_pl_nm__v"/></e>
-      <e><i>a</i><par n="cni_sg__v"/></e>
-      <e><i>a</i><par n="cni_sg_n__v"/></e>
-      <e><i>a</i><par n="cni_pl_m__v"/></e>
-      <e><i>a</i><par n="cni_pl_nm__v"/></e>
-      
-      <!-- Past tense impersonal form -->
-      <e>
-        <p>
-          <l>ano</l>
-          <r>ać<s n="vblex"/><s n="imperf"/><s n="pp"/><s n="impers"/><s n="nt"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ając</l>
-          <r>ć<s n="vblex"/><s n="imperf"/><s n="adv"/></r>
-        </p>
-      </e>
-
-      <e><i>a</i><par n="czyta/nie__ger"/></e>
-      <e><p><l>a</l><r>ć</r></p><par n="pija/ny__pp_psv"/></e>
-      <e><p><l>ają</l><r>ć</r></p><par n="piją/cy__pprs_act"/></e>
-    </pardef>
-    <pardef n="bi/ć__vblex">
-      <e>
-         <p>
-          <l>ć</l>
-          <r>ć<s n="vblex"/><s n="imperf"/><s n="inf"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ję</l>
-          <r>ć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>jesz</l>
-          <r>ć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>je</l>
-          <r>ć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="mf"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>jemy</l>
-          <r>ć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>jecie</l>
-          <r>ć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ją</l>
-          <r>ć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
-        </p>
-      </e>
-
-      <e><i/><par n="imperative__v"/></e>
-      <e><i></i><par n="past_sg__v"/></e>
-      <e><i></i><par n="past_sg_n__v"/></e>
-      <e><i></i><par n="past_pl_m__v"/></e>
-      <e><i></i><par n="past_pl_nm__v"/></e>
-      <e><i></i><par n="cni_sg__v"/></e>
-      <e><i></i><par n="cni_sg_n__v"/></e>
-      <e><i></i><par n="cni_pl_m__v"/></e>
-      <e><i></i><par n="cni_pl_nm__v"/></e>
-      <e>
-        <p>
-          <l>to</l>
-          <r>ać<s n="vblex"/><s n="imperf"/><s n="pp"/><s n="impers"/><s n="nt"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>jąc</l>
-          <r>ć<s n="vblex"/><s n="imperf"/><s n="adv"/></r>
-        </p>
-      </e>
-
-      <e><i></i><par n="zdję/cie__ger"/></e>
-      <e><p><l></l><r>ć</r></p><par n="pi/ty__pp_psv"/></e>
-      <e><p><l>ją</l><r>ć</r></p><par n="piją/cy__pprs_act"/></e>
-    </pardef>
     <pardef n="tani/eć__vblex">
       <e>
          <p>
@@ -152,37 +10,37 @@
       <e>
         <p>
           <l>eję</l>
-          <r>eć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
+          <r>eć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ejesz</l>
-          <r>eć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
+          <r>eć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>eje</l>
-          <r>eć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="mf"/><s n="sg"/></r>
+          <r>eć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ejemy</l>
-          <r>eć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
+          <r>eć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ejecie</l>
-          <r>eć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+          <r>eć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>eją</l>
-          <r>eć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="mf"/><s n="pl"/></r>
+          <r>eć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
 
@@ -224,43 +82,43 @@
       <e>
         <p>
           <l>em</l>
-          <r>eć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+          <r>eć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e r="LR">
         <p>
           <l>ę</l>
-          <r>eć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+          <r>eć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>esz</l>
-          <r>eć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+          <r>eć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>e</l>
-          <r>eć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+          <r>eć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>emy</l>
-          <r>eć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
+          <r>eć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ecie</l>
-          <r>eć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="pl"/></r>
+          <r>eć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>eją</l>
-          <r>eć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+          <r>eć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
 
@@ -292,78 +150,6 @@
       <e><p><l>a</l><r>ć</r></p><par n="pija/ny__pp_psv"/></e>
       <e><p><l>eją</l><r>ć</r></p><par n="piją/cy__pprs_act"/></e>
     </pardef>
-    <pardef n="mal/ować__vblex">
-      <e>
-        <p>
-          <l>ować</l>
-          <r>ować<s n="vblex"/><s n="imperf"/><s n="inf"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>uję</l>
-          <r>ować<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ujesz</l>
-          <r>ować<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>uje</l>
-          <r>ować<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ujemy</l>
-          <r>ować<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ujecie</l>
-          <r>ować<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="pl"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ują</l>
-          <r>ować<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
-        </p>
-      </e>
-
-      <e><i>u</i><par n="imperative__v"/></e>
-      <e><i>owa</i><par n="past_sg__v"/></e>
-      <e><i>owa</i><par n="past_sg_n__v"/></e>
-      <e><i>owa</i><par n="past_pl_m__v"/></e>
-      <e><i>owa</i><par n="past_pl_nm__v"/></e>
-      <e><i>owa</i><par n="cni_sg__v"/></e>
-      <e><i>owa</i><par n="cni_sg_n__v"/></e>
-      <e><i>owa</i><par n="cni_pl_m__v"/></e>
-      <e><i>owa</i><par n="cni_pl_nm__v"/></e>
-      <!-- Past tense impersonal form -->
-      <e>
-        <p>
-          <l>owano</l>
-          <r>ować<s n="vblex"/><s n="imperf"/><s n="pp"/><s n="impers"/><s n="nt"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ując</l>
-          <r>ować<s n="vblex"/><s n="imperf"/><s n="adv"/></r>
-        </p>
-      </e>
-
-      <!-- Gerund -->
-      <e><i>owa</i><par n="czyta/nie__ger"/></e>
-      <e><p><l>owa</l><r>ować</r></p><par n="pija/ny__pp_psv"/></e>
-      <e><p><l>ują</l><r>ować</r></p><par n="piją/cy__pprs_act"/></e>
-    </pardef>
     <pardef n="rozum/ieć__vblex">
       <e>
          <p>
@@ -374,43 +160,43 @@
       <e>
         <p>
           <l>iem</l>
-          <r>ieć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+          <r>ieć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e r="LR">
         <p>
           <l>ię</l>
-          <r>ieć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+          <r>ieć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>iesz</l>
-          <r>ieć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+          <r>ieć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ie</l>
-          <r>ieć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+          <r>ieć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>iemy</l>
-          <r>ieć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
+          <r>ieć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>iecie</l>
-          <r>ieć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="pl"/></r>
+          <r>ieć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ieją</l>
-          <r>ieć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+          <r>ieć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
 
@@ -450,37 +236,37 @@
      <e>
        <p>
          <l>uję</l>
-         <r>iwać<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+         <r>iwać<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
        </p>
      </e>
      <e>
        <p>
          <l>ujesz</l>
-         <r>iwać<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+         <r>iwać<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p2"/><s n="sg"/></r>
        </p>
      </e>
      <e>
        <p>
          <l>uje</l>
-         <r>iwać<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+         <r>iwać<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
        </p>
      </e>
      <e>
        <p>
          <l>ujemy</l>
-         <r>iwać<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
+         <r>iwać<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p1"/><s n="pl"/></r>
        </p>
      </e>
      <e>
        <p>
          <l>ujecie</l>
-         <r>iwać<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="pl"/></r>
+         <r>iwać<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p2"/><s n="pl"/></r>
        </p>
      </e>
      <e>
        <p>
          <l>ują</l>
-         <r>iwać<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+         <r>iwać<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
        </p>
      </e>
 
@@ -521,37 +307,37 @@
       <e>
         <p>
           <l>ę</l>
-          <r>eć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+          <r>eć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ysz</l>
-          <r>eć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+          <r>eć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>y</l>
-          <r>eć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+          <r>eć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ymy</l>
-          <r>eć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
+          <r>eć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ycie</l>
-          <r>eć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="pl"/></r>
+          <r>eć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ą</l>
-          <r>eć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+          <r>eć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
 
@@ -590,37 +376,37 @@
       <e>
         <p>
           <l>ę</l>
-          <r>ić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+          <r>ić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>isz</l>
-          <r>ić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+          <r>ić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>i</l>
-          <r>ić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+          <r>ić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>imy</l>
-          <r>ić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
+          <r>ić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>icie</l>
-          <r>ić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="pl"/></r>
+          <r>ić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ą</l>
-          <r>ić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+          <r>ić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
 
@@ -679,37 +465,37 @@
       <e>
         <p>
           <l>ię</l>
-          <r>ić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+          <r>ić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>isz</l>
-          <r>ić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+          <r>ić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>i</l>
-          <r>ić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+          <r>ić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>imy</l>
-          <r>ić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
+          <r>ić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>icie</l>
-          <r>ić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="pl"/></r>
+          <r>ić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ią</l>
-          <r>ić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+          <r>ić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
 
@@ -752,37 +538,37 @@
       <e>
         <p>
           <l>czę</l>
-          <r>cić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+          <r>cić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>cisz</l>
-          <r>cić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+          <r>cić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ci</l>
-          <r>cić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+          <r>cić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>cimy</l>
-          <r>cić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
+          <r>cić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>cicie</l>
-          <r>cić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="pl"/></r>
+          <r>cić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>czą</l>
-          <r>cić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+          <r>cić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
 
@@ -824,37 +610,37 @@
       <e>
         <p>
           <l>szę</l>
-          <r>sić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+          <r>sić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>sisz</l>
-          <r>sić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+          <r>sić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>si</l>
-          <r>sić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+          <r>sić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>simy</l>
-          <r>sić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
+          <r>sić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>sicie</l>
-          <r>sić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="pl"/></r>
+          <r>sić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>szą</l>
-          <r>sić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+          <r>sić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
 
@@ -896,37 +682,37 @@
       <e>
         <p>
           <l>żdżę</l>
-          <r>ździć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+          <r>ździć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ździsz</l>
-          <r>ździć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+          <r>ździć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ździ</l>
-          <r>ździć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+          <r>ździć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ździmy</l>
-          <r>ździć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
+          <r>ździć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ździcie</l>
-          <r>ździć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="pl"/></r>
+          <r>ździć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>żdżą</l>
-          <r>ździć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+          <r>ździć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
 
@@ -968,37 +754,37 @@
       <e>
         <p>
           <l>szczę</l>
-          <r>ścić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+          <r>ścić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ścisz</l>
-          <r>ścić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+          <r>ścić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ści</l>
-          <r>ścić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+          <r>ścić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ścimy</l>
-          <r>ścić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
+          <r>ścić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ścicie</l>
-          <r>ścić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="pl"/></r>
+          <r>ścić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>szczą</l>
-          <r>ścić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+          <r>ścić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
 
@@ -1040,37 +826,37 @@
       <e>
         <p>
           <l>oję</l>
-          <r>oić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+          <r>oić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>oisz</l>
-          <r>oić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+          <r>oić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>oi</l>
-          <r>oić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+          <r>oić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>oimy</l>
-          <r>oić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
+          <r>oić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>oicie</l>
-          <r>oić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="pl"/></r>
+          <r>oić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>oją</l>
-          <r>oić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+          <r>oić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
 
@@ -1112,37 +898,37 @@
       <e>
         <p>
           <l>ję</l>
-          <r>ić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+          <r>ić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>isz</l>
-          <r>ić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+          <r>ić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>i</l>
-          <r>ić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+          <r>ić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>imy</l>
-          <r>ić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
+          <r>ić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>icie</l>
-          <r>ić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="pl"/></r>
+          <r>ić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ją</l>
-          <r>ić<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+          <r>ić<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
 
@@ -1184,37 +970,37 @@
       <e>
         <p>
           <l>olę</l>
-          <r>oleć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+          <r>oleć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>olisz</l>
-          <r>oleć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+          <r>oleć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>oli</l>
-          <r>oleć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+          <r>oleć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>olimy</l>
-          <r>oleć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
+          <r>oleć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>olicie</l>
-          <r>oleć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="pl"/></r>
+          <r>oleć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>olą</l>
-          <r>oleć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+          <r>oleć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
 
@@ -1254,37 +1040,37 @@
       <e>
         <p>
           <l>uję</l>
-          <r>ywać<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+          <r>ywać<s n="vblex"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ujesz</l>
-          <r>ywać<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+          <r>ywać<s n="vblex"/><s n="pres"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>uje</l>
-          <r>ywać<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+          <r>ywać<s n="vblex"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ujemy</l>
-          <r>ywać<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
+          <r>ywać<s n="vblex"/><s n="pres"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ujecie</l>
-          <r>ywać<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r>
+          <r>ywać<s n="vblex"/><s n="pres"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ują</l>
-          <r>ywać<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+          <r>ywać<s n="vblex"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
 
@@ -1326,37 +1112,37 @@
       <e>
         <p>
           <l>ę</l>
-          <r>yć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
+          <r>yć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p1"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ysz</l>
-          <r>yć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
+          <r>yć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p2"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>y</l>
-          <r>yć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
+          <r>yć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p3"/><s n="sg"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ymy</l>
-          <r>yć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
+          <r>yć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p1"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ycie</l>
-          <r>yć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="pl"/></r>
+          <r>yć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p2"/><s n="pl"/></r>
         </p>
       </e>
       <e>
         <p>
           <l>ą</l>
-          <r>yć<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
+          <r>yć<s n="vblex"/><s n="imperf"/><s n="pres"/><s n="p3"/><s n="pl"/></r>
         </p>
       </e>
 
@@ -1387,77 +1173,5 @@
       <e><p><l>ą</l><r>yć</r></p><par n="piją/cy__pprs_act"/></e>
       <e><p><l></l><r>ć</r></p><par n="jedz/ony__pp_psv"/></e>
     </pardef>
-    <pardef n="ostrzeliw/ać__vblex">
-     <e>
-       <p>
-         <l>ać</l>
-         <r>ać<s n="vblex"/><s n="imperf"/><s n="inf"/></r>
-       </p>
-     </e>
-     <e>
-       <p>
-         <l>uję</l>
-         <r>ać<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="sg"/></r>
-       </p>
-     </e>
-     <e>
-       <p>
-         <l>ujesz</l>
-         <r>ać<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="sg"/></r>
-       </p>
-     </e>
-     <e>
-       <p>
-         <l>uje</l>
-         <r>ać<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="sg"/></r>
-       </p>
-     </e>
-     <e>
-       <p>
-         <l>ujemy</l>
-         <r>ać<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p1"/><s n="pl"/></r>
-       </p>
-     </e>
-     <e>
-       <p>
-         <l>ujecie</l>
-         <r>ać<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p2"/><s n="pl"/></r>
-       </p>
-     </e>
-     <e>
-       <p>
-         <l>ują</l>
-         <r>ać<s n="vblex"/><s n="imperf"/><s n="pri"/><s n="p3"/><s n="pl"/></r>
-       </p>
-     </e>
-
-      <e><p><l>u</l><r>a</r></p><par n="imperative__v"/></e>
-      <e><i>a</i><par n="past_sg__v"/></e>
-      <e><i>a</i><par n="past_sg_n__v"/></e>
-      <e><i>a</i><par n="past_pl_m__v"/></e>
-      <e><i>a</i><par n="past_pl_nm__v"/></e>
-      <e><i>a</i><par n="cni_sg__v"/></e>
-      <e><i>a</i><par n="cni_sg_n__v"/></e>
-      <e><i>a</i><par n="cni_pl_m__v"/></e>
-      <e><i>a</i><par n="cni_pl_nm__v"/></e>
-      <!-- Past tense impersonal form -->
-      <e>
-        <p>
-          <l>ano</l>
-          <r>ać<s n="vblex"/><s n="imperf"/><s n="pp"/><s n="impers"/><s n="nt"/></r>
-        </p>
-      </e>
-      <e>
-        <p>
-          <l>ując</l>
-          <r>ać<s n="vblex"/><s n="imperf"/><s n="adv"/></r>
-        </p>
-      </e>
-
-      <e><i>a</i><par n="czyta/nie__ger"/></e>
-      <e><p><l>a</l><r>ać</r></p><par n="pija/ny__pp_psv"/></e>
-      <e><p><l>ują</l><r>ać</r></p><par n="piją/cy__pprs_act"/></e>
-    </pardef>
-
 
 </pardefs>
