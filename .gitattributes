@@ -69,10 +69,8 @@ pldic/pl-metapardefs-nt.xml -text
 pldic/pl-pardef-adj-participles.xml -text
 pldic/pl-pardef-null-adj.xml -text
 pldic/pl-pardefs-adj-comp.xml -text
-pldic/pl-pardefs-adj-sint.xml -text
 pldic/pl-pardefs-adj.xml -text
 pldic/pl-pardefs-adv-sint.xml -text
-pldic/pl-pardefs-cardinals.xml -text
 pldic/pl-pardefs-deriv.xml -text
 pldic/pl-pardefs-determiners.xml -text
 pldic/pl-pardefs-gerunds.xml -text
