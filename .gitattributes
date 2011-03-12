@@ -1,26 +1,30 @@
 * text=auto !eol
 /AUTHORS -text
 /COPYING -text
-/English_to_Polish.txt -text
+/ChangeLog -text
 /Makefile.am -text
 /NEWS -text
 /README -text
-/TODO -text
 /alt.xsl -text
 /apertium-en-pl.en-pl.dix -text
 /apertium-en-pl.en-pl.t1x -text
 /apertium-en-pl.en-pl.t2x -text
 /apertium-en-pl.en-pl.t3x -text
+/apertium-en-pl.en.acx -text
 /apertium-en-pl.en.metadix -text
+/apertium-en-pl.en.tsx -text
 /apertium-en-pl.pl-en.t1x -text
 /apertium-en-pl.pl-en.t2x -text
 /apertium-en-pl.pl-en.t3x -text
+/apertium-en-pl.pl.acx -text
+/apertium-en-pl.pl.dix -text
 /apertium-en-pl.pl.dix.xml -text
 /apertium-en-pl.pl.pardefs.xml -text
+/apertium-en-pl.pl.tsx -text
 /apertium-en-pl.post-en.dix -text
 /apertium-en-pl.post-pl.dix -text
-/apertium-en-pl.symbols.xml -text
 /autogen.sh -text
+/buscaPar.xsl -text
 /configure.ac -text
 /en-pl.prob -text svneol=unset#unset
 /endix-latin-french.xml -text
@@ -162,3 +166,4 @@ pldic/url-pardefs.xml -text
 /pldix-othernames.xml -text
 /pldix-places.xml -text
 /pldix-surnames.xml -text
+/principal.xsl -text

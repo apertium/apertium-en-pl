@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
   <alphabet/>
-  <!-- Symbol definitions -->
- <sdefs>
+  <sdefs>
     <sdef n="sg" c="liczba pojedyncza/singular" />
     <sdef n="pl" c="liczba mnoga/plural" />
     <sdef n="nom" c="mianownik/nominative" />
@@ -23,22 +22,15 @@
     <sdef n="ND" />
     <sdef n="GD" />
     <sdef n="CD" />
+    <sdef n="indecl" />
     <sdef n="nm"/>
-    <sdef n="m12"/>
     <sdef n="pos" />
     <sdef n="comp" c="stopień wyższy/comparative" />
     <sdef n="sup" c="stopień najwyższy/superlative" />
     <sdef n="imperf" c="aspekt niedokonany/imperfective aspect" />
     <sdef n="perf" c="aspekt dokonany/perfective aspect" />
-    <sdef n="aff" />
-    <sdef n="neg" />
-    <sdef n="praep" />
-    <sdef n="npraep" />
     <sdef n="cog" c="nazwisko/surname (cognomen)"/>
-    <sdef n="congr" />
     <sdef n="rec" />
-    <sdef n="nagl" />
-    <sdef n="agl" />
     <sdef n="n" c="rzeczownik/noun" />
     <sdef n="adj" c="przymiotnik/adjective/" />
     <sdef n="prn" c="zaimek/pronoun" />
@@ -121,26 +113,17 @@
     <sdef n="vbser" c="czasownik być/the verb to be"/>
 
     <sdef n="enc" c="enclitic"/>
-
- </sdefs>
-
-
-  <section id="prepositions" type="standard">
-    <!-- locative/accusative -->
+  </sdefs>
+  <section id="main" type="standard">
     <e><p><l>about<s n="pr"/></l><r>o<s n="pr"/></r></p></e>
-    <!-- locative -->
     <e><p><l>in<s n="pr"/></l><r>w<s n="pr"/></r></p></e>
-    <!-- genitive -->
     <e><p><l>according<b/>to<s n="pr"/></l><r>według<s n="pr"/></r></p></e>
     <e><p><l>around<s n="pr"/></l><r>u<s n="pr"/></r></p></e>
     <e><p><l>for<s n="pr"/></l><r>dla<s n="pr"/></r></p></e>
     <e><p><l>from<s n="pr"/></l><r>od<s n="pr"/></r></p></e>
     <e><p><l>without<s n="pr"/></l><r>bez<s n="pr"/></r></p></e>
     <e><p><l>from<s n="pr"/></l><r>z<s n="pr"/><s n="gen"/></r></p></e>
-    <!-- instrumental -->
     <e><p><l>with<s n="pr"/></l><r>z<s n="pr"/></r></p></e>
-    
-    <!-- genitive -->
     <e><p><l>in<b/>accordance<b/>with<s n="pr"/></l><r>zgodnie<b/>z<s n="pr"/></r></p></e>
     <e><p><l>above<s n="pr"/></l><r>ponad<s n="pr"/></r></p></e>
     <e><p><l>all<b/>around<s n="pr"/></l><r>dokoła<s n="pr"/></r></p></e>
@@ -189,9 +172,6 @@
     <e><p><l>SGML<s n="n"/><s n="acr"/></l><r>SGML<s n="n"/><s n="acr"/><s n="mi"/></r></p></e>
     <e><p><l>XUL<s n="n"/><s n="acr"/></l><r>XUL<s n="n"/><s n="acr"/><s n="mi"/></r></p></e>
     <e><p><l>RPC<s n="n"/><s n="acr"/></l><r>RPC<s n="n"/><s n="acr"/><s n="mi"/></r></p></e>
-  </section>
-
-  <section id="main" type="standard">
     <!-- Interjections -->
     <e><p><l>oh<b/>God<s n="ij"/></l><r>O<b/>Boże<s n="ij"/></r></p></e>
     <e><p><l>ow<s n="ij"/></l><r>au<s n="ij"/></r></p></e>
@@ -227,31 +207,31 @@
 
     <e><p><l>Poland<s n="np"/><s n="top"/></l><r>Polska<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 
-<e><l>Baltic<b/>Sea<s n="np"/><s n="top"/></l><r>Morze<b/>Bałtyckie<s n="np"/><s n="hyd"/><s n="nt"/></r></e>
-<e><l>Mediterranean<b/>Sea<s n="np"/><s n="top"/></l><r>Morze<b/>Śródziemne<s n="np"/><s n="hyd"/><s n="nt"/></r></e>
-<e><l>Alboran<b/>Sea<s n="np"/><s n="top"/></l><r>Morze<b/>Alborańskie<s n="np"/><s n="hyd"/><s n="nt"/></r></e>
-<e><l>Balearic<b/>Sea<s n="np"/><s n="top"/></l><r>Morze<b/>Balearskie<s n="np"/><s n="hyd"/><s n="nt"/></r></e>
-<e><l>Ligurian<b/>Sea<s n="np"/><s n="top"/></l><r>Morze<b/>Liguryjskie<s n="np"/><s n="hyd"/><s n="nt"/></r></e>
-<e><l>Tyrrhenian<b/>Sea<s n="np"/><s n="top"/></l><r>Morze<b/>Tyrreńskie<s n="np"/><s n="hyd"/><s n="nt"/></r></e>
-<e><l>Ionian<b/>Sea<s n="np"/><s n="top"/></l><r>Morze<b/>Jońskie<s n="np"/><s n="hyd"/><s n="nt"/></r></e>
-<e><l>Adriatic<b/>Sea<s n="np"/><s n="top"/></l><r>Morze<b/>Adriatyckie<s n="np"/><s n="hyd"/><s n="nt"/></r></e>
-<e><l>Aegean<b/>Sea<s n="np"/><s n="top"/></l><r>Morze<b/>Egejskie<s n="np"/><s n="hyd"/><s n="nt"/></r></e>
-<e><l>Sea<b/>of<b/>Sicily<s n="np"/><s n="top"/></l><r>Morze<b/>Sycylijskie<s n="np"/><s n="hyd"/><s n="nt"/></r></e>
-<e><l>Thracian<b/>Sea<s n="np"/><s n="top"/></l><r>Morze<b/>Trackie<s n="np"/><s n="hyd"/><s n="nt"/></r></e>
-<e><l>Myrtoan<b/>Sea<s n="np"/><s n="top"/></l><r>Morze<b/>Mirtejskie<s n="np"/><s n="hyd"/><s n="nt"/></r></e>
-<e><l>Sea<b/>of<b/>Crete<s n="np"/><s n="top"/></l><r>Morze<b/>Kreteńskie<s n="np"/><s n="hyd"/><s n="nt"/></r></e>
-<e i="yes"><l><b/>Sea<s n="np"/><s n="top"/></l><r>Morze<b/>Cypryjskie<s n="np"/><s n="hyd"/><s n="nt"/></r></e>
-<e i="yes"><l><b/>Sea<s n="np"/><s n="top"/></l><r>Morze<b/>Lewantyńskie<s n="np"/><s n="hyd"/><s n="nt"/></r></e>
-<e><l>Libyan<b/>Sea<s n="np"/><s n="top"/></l><r>Morze<b/>Libijskie<s n="np"/><s n="hyd"/><s n="nt"/></r></e>
-<e><l>Red<b/>Sea<s n="np"/><s n="top"/></l><r>Morze<b/>Czerwone<s n="np"/><s n="hyd"/><s n="nt"/></r></e>
-<e><l>Dead<b/>Sea<s n="np"/><s n="top"/></l><r>Morze<b/>Martwe<s n="np"/><s n="hyd"/><s n="nt"/></r></e>
-<e><l>Irish<b/>Sea<s n="np"/><s n="top"/></l><r>Morze<b/>Irlandzkie<s n="np"/><s n="hyd"/><s n="nt"/></r></e>
-<e><l>Sea<b/>of<b/>Galilee<s n="np"/><s n="top"/></l><r>Jezioro<b/>Tyberiadzkie<s n="np"/><s n="hyd"/><s n="nt"/></r></e>
-<e r="LR"><l>Lake<b/>Kinneret<s n="np"/><s n="top"/></l><r>Jezioro<b/>Tyberiadzkie<s n="np"/><s n="hyd"/><s n="nt"/></r></e>
-<e r="LR"><l>Lake<b/>Tiberius<s n="np"/><s n="top"/></l><r>Jezioro<b/>Tyberiadzkie<s n="np"/><s n="hyd"/><s n="nt"/></r></e>
-<e r="LR"><l>Lake<b/>Tiberias<s n="np"/><s n="top"/></l><r>Jezioro<b/>Tyberiadzkie<s n="np"/><s n="hyd"/><s n="nt"/></r></e>
-<e r="LR"><l>Lake<b/>Galilee<s n="np"/><s n="top"/></l><r>Jezioro<b/>Tyberiadzkie<s n="np"/><s n="hyd"/><s n="nt"/></r></e>
-<e><l>Sea<b/>of<b/>Galilee<s n="np"/><s n="top"/></l><r>Jezioro<b/>Tyberiadzkie<s n="np"/><s n="hyd"/><s n="nt"/></r></e>
+<e><p><l>Baltic<b/>Sea<s n="np"/><s n="top"/></l><r>Morze<b/>Bałtyckie<s n="np"/><s n="hyd"/><s n="nt"/></r></p></e>
+<e><p><l>Mediterranean<b/>Sea<s n="np"/><s n="top"/></l><r>Morze<b/>Śródziemne<s n="np"/><s n="hyd"/><s n="nt"/></r></p></e>
+<e><p><l>Alboran<b/>Sea<s n="np"/><s n="top"/></l><r>Morze<b/>Alborańskie<s n="np"/><s n="hyd"/><s n="nt"/></r></p></e>
+<e><p><l>Balearic<b/>Sea<s n="np"/><s n="top"/></l><r>Morze<b/>Balearskie<s n="np"/><s n="hyd"/><s n="nt"/></r></p></e>
+<e><p><l>Ligurian<b/>Sea<s n="np"/><s n="top"/></l><r>Morze<b/>Liguryjskie<s n="np"/><s n="hyd"/><s n="nt"/></r></p></e>
+<e><p><l>Tyrrhenian<b/>Sea<s n="np"/><s n="top"/></l><r>Morze<b/>Tyrreńskie<s n="np"/><s n="hyd"/><s n="nt"/></r></p></e>
+<e><p><l>Ionian<b/>Sea<s n="np"/><s n="top"/></l><r>Morze<b/>Jońskie<s n="np"/><s n="hyd"/><s n="nt"/></r></p></e>
+<e><p><l>Adriatic<b/>Sea<s n="np"/><s n="top"/></l><r>Morze<b/>Adriatyckie<s n="np"/><s n="hyd"/><s n="nt"/></r></p></e>
+<e><p><l>Aegean<b/>Sea<s n="np"/><s n="top"/></l><r>Morze<b/>Egejskie<s n="np"/><s n="hyd"/><s n="nt"/></r></p></e>
+<e><p><l>Sea<b/>of<b/>Sicily<s n="np"/><s n="top"/></l><r>Morze<b/>Sycylijskie<s n="np"/><s n="hyd"/><s n="nt"/></r></p></e>
+<e><p><l>Thracian<b/>Sea<s n="np"/><s n="top"/></l><r>Morze<b/>Trackie<s n="np"/><s n="hyd"/><s n="nt"/></r></p></e>
+<e><p><l>Myrtoan<b/>Sea<s n="np"/><s n="top"/></l><r>Morze<b/>Mirtejskie<s n="np"/><s n="hyd"/><s n="nt"/></r></p></e>
+<e><p><l>Sea<b/>of<b/>Crete<s n="np"/><s n="top"/></l><r>Morze<b/>Kreteńskie<s n="np"/><s n="hyd"/><s n="nt"/></r></p></e>
+<e i="yes"><p><l><b/>Sea<s n="np"/><s n="top"/></l><r>Morze<b/>Cypryjskie<s n="np"/><s n="hyd"/><s n="nt"/></r></p></e>
+<e i="yes"><p><l><b/>Sea<s n="np"/><s n="top"/></l><r>Morze<b/>Lewantyńskie<s n="np"/><s n="hyd"/><s n="nt"/></r></p></e>
+<e><p><l>Libyan<b/>Sea<s n="np"/><s n="top"/></l><r>Morze<b/>Libijskie<s n="np"/><s n="hyd"/><s n="nt"/></r></p></e>
+<e><p><l>Red<b/>Sea<s n="np"/><s n="top"/></l><r>Morze<b/>Czerwone<s n="np"/><s n="hyd"/><s n="nt"/></r></p></e>
+<e><p><l>Dead<b/>Sea<s n="np"/><s n="top"/></l><r>Morze<b/>Martwe<s n="np"/><s n="hyd"/><s n="nt"/></r></p></e>
+<e><p><l>Irish<b/>Sea<s n="np"/><s n="top"/></l><r>Morze<b/>Irlandzkie<s n="np"/><s n="hyd"/><s n="nt"/></r></p></e>
+<e><p><l>Sea<b/>of<b/>Galilee<s n="np"/><s n="top"/></l><r>Jezioro<b/>Tyberiadzkie<s n="np"/><s n="hyd"/><s n="nt"/></r></p></e>
+<e r="LR"><p><l>Lake<b/>Kinneret<s n="np"/><s n="top"/></l><r>Jezioro<b/>Tyberiadzkie<s n="np"/><s n="hyd"/><s n="nt"/></r></p></e>
+<e r="LR"><p><l>Lake<b/>Tiberius<s n="np"/><s n="top"/></l><r>Jezioro<b/>Tyberiadzkie<s n="np"/><s n="hyd"/><s n="nt"/></r></p></e>
+<e r="LR"><p><l>Lake<b/>Tiberias<s n="np"/><s n="top"/></l><r>Jezioro<b/>Tyberiadzkie<s n="np"/><s n="hyd"/><s n="nt"/></r></p></e>
+<e r="LR"><p><l>Lake<b/>Galilee<s n="np"/><s n="top"/></l><r>Jezioro<b/>Tyberiadzkie<s n="np"/><s n="hyd"/><s n="nt"/></r></p></e>
+<e><p><l>Sea<b/>of<b/>Galilee<s n="np"/><s n="top"/></l><r>Jezioro<b/>Tyberiadzkie<s n="np"/><s n="hyd"/><s n="nt"/></r></p></e>
 <e><p><l>Trenčín<s n="np"/><s n="top"/></l><r>Trenczyn<s n="np"/><s n="top"/><s n="mi"/></r></p></e>
 <e><p><l>Nitra<s n="np"/><s n="top"/></l><r>Nitra<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 <e><p><l>Žilina<s n="np"/><s n="top"/></l><r>Żylina<s n="np"/><s n="top"/><s n="f"/></r></p></e>
@@ -298,7 +278,7 @@
 <e><p><l>Republic<b/>of<b/>Austria<s n="np"/><s n="top"/></l><r>Republika<g><b/>Austrii</g><s n="np"/><s n="top"/><s n="f"/></r></p></e>
 <e><p><l>Azerbaijan<s n="np"/><s n="top"/></l><r>Azerbejdżan<s n="np"/><s n="top"/><s n="mi"/></r></p></e>
 <e><p><l>Republic<b/>of<b/>Azerbaijan<s n="np"/><s n="top"/></l><r>Republika<g><b/>Azerbejdżanu</g><s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e><p><l>Bahamas<s n="np"/><s n="top"/><s n="pl"/></l><r>Bahamy<s n="np"/><s n="isl"/><s n="f"/><s n="pl"/></r></p></e>
+<e><p><l>Bahamas<s n="np"/><s n="top"/><s n="pl"/></l><r>Bahamy<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
 <e><p><l>Commonwealth<b/>of<b/>The<b/>Bahamas<s n="np"/><s n="top"/></l><r>Wspólnota<g><b/>Bahamów</g><s n="np"/><s n="top"/><s n="f"/></r></p></e>
 <e><p><l>Bangui<s n="np"/><s n="top"/></l><r>Bangi<s n="np"/><s n="top"/><s n="ND"/></r></p></e>
 <e><p><l>Bavaria<s n="np"/><s n="top"/></l><r>Bawaria<s n="np"/><s n="top"/><s n="f"/></r></p></e>
@@ -396,6 +376,14 @@
 <e><p><l>Nassau<s n="np"/><s n="top"/></l><r>Nassau<s n="np"/><s n="top"/><s n="nt"/><s n="indecl"/></r></p></e>
 <e><p><l>Bissau<s n="np"/><s n="top"/></l><r>Bissau<s n="np"/><s n="top"/><s n="nt"/><s n="indecl"/></r></p></e>
 <e><p><l>Georgetown<s n="np"/><s n="top"/></l><r>Georgetown<s n="np"/><s n="top"/><s n="nt"/><s n="indecl"/></r></p></e>
+    <e r="RL"><p><l>girl<s n="n"/></l><r>maniurka<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>phenol<s n="n"/></l><r>fenol<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>Dinitrophenol<s n="n"/></l><r>dinitrofenol<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>2,4-Dinitrophenol<s n="n"/></l><r>2,4-dinitrofenol<s n="n"/><s n="mi"/></r></p></e>
+    <e><p><l>mitochondrion<s n="n"/></l><r>mitochondrium<s n="n"/><s n="nt"/></r></p></e>
+  </section>
+  
+  <section id="punct" type="standard">
     <!-- punctuation etc. -->
     <e>
       <p>
@@ -423,20 +411,5 @@
     <e><re>[\)\]]</re><p><l><s n="rpar"/></l><r><s n="rpar"/></r></p></e>
     <e><re>[’'‘]</re><p><l><s n="apos"/></l><r><s n="apos"/></r></p></e>
 
-  </section>
-  
-  </section>
-  
-  <section id="slang" type="standard">
-    <e r="RL"><p><l>girl<s n="n"/></l><r>maniurka<s n="n"/><s n="f"/></r></p></e>
-  </section>
-      
-  <section id="chemistry" type="standard">
-    <e><p><l>phenol<s n="n"/></l><r>fenol<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>Dinitrophenol<s n="n"/></l><r>dinitrofenol<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>2,4-Dinitrophenol<s n="n"/></l><r>2,4-dinitrofenol<s n="n"/><s n="mi"/></r></p></e>
-  </section>
-  <section id="biology" type="standard">
-    <e><p><l>mitochondrion<s n="n"/></l><r>mitochondrium<s n="n"/><s n="nt"/></r></p></e>
   </section>
 </dictionary>

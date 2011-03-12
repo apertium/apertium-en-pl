@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?> <!-- -*- nxml -*- -->
+<?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
   <alphabet/>
   <sdefs>
@@ -175,13 +175,7 @@
 		  </p>
 		  <par n="porten_a"/>
 	  </e>
-<!--    <e>
-      <p>
-        <l><b/>,</l>
-        <r>,</r>
-      </p>
-    </e>
--->	
+	
   </section>
 
 </dictionary>
