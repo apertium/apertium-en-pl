@@ -3413,7 +3413,7 @@
     <e><p><l>keyboard<s n="n"/></l><r>klawiatura<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>keyboard<s n="n"/></l><r>klawier<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>keystone<s n="n"/></l><r>zwornik<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>khaki<s n="n"/></l><r>khaki<s n="n"/><s n="NC"/></r></p></e>
+    <e><p><l>khaki<s n="n"/></l><r>khaki<s n="n"/><s n="nt"/><s n="sp"/><s n="indecl"/></r></p></e>
     <e><p><l>kilogramme<s n="n"/></l><r>kilogram<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>kilometre<s n="n"/></l><r>kilometr<s n="n"/><s n="mi"/></r></p></e>
     <e><p><l>kilowat<s n="n"/></l><r>kilowat<s n="n"/><s n="mi"/></r></p></e>
@@ -5559,7 +5559,7 @@
     <e><p><l>splinter<s n="n"/></l><r>zadra<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>spokesman<s n="n"/></l><r>rzecznik<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>sponge-cake<s n="n"/></l><r>biszkopt<s n="n"/><s n="mi"/></r></p></e>
-    <e><p><l>sponge<s n="n"/></l><r>gąbka<s n="n"/><s n="d"/></r></p></e>
+    <e><p><l>sponge<s n="n"/></l><r>gąbka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sponsor<s n="n"/></l><r>sponsor<s n="n"/><s n="mp"/></r></p></e>
     <e><p><l>spoon<s n="n"/></l><r>łyżka<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>spoonerism<s n="n"/></l><r>spuneryzm<s n="n"/><s n="mi"/></r></p></e>
