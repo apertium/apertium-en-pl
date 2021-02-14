@@ -348,6 +348,16 @@
       <list-item v="przyglądać"/>
       <list-item v="przyjrzeć"/>
     </def-list>
+    <!-- taken from spa-eng.t1x -->
+    <def-list n="en_majuscules">
+      <list-item v="Monday"/>
+      <list-item v="Tuesday"/>
+      <list-item v="Wednesday"/>
+      <list-item v="Thursday"/>
+      <list-item v="Friday"/>
+      <list-item v="Saturday"/>
+      <list-item v="Sunday"/>
+    </def-list>
   </section-def-lists>
 
   <section-def-macros>
